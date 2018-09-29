@@ -1368,7 +1368,6 @@ footer{
     margin: 0 13px 0 13px;
     fill: #5964aa;
     transition: 1s;
-    transform: scale(0);
 }
 .social_fot{
     justify-content: flex-end;
@@ -1739,7 +1738,7 @@ footer{
         align-items: center;
     }
     .social_fot svg{
-        margin: 0 10px 50px 10px ;
+        margin: 0 15px 50px 15px ;
         transition: 1s;
     }
     .logo_footer h1{
@@ -1760,7 +1759,7 @@ footer{
 
     .mobile_footer_hr{
         display: block;
-        width: 0;
+        width: 92%;
         background: #312b59;
         border: none;
         height: 1px;

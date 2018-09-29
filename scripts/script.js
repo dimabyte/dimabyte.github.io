@@ -510,23 +510,6 @@ $(function() {
             }
 
         });
-    if ($(window).width() > 1030){
-        $('.right_fot').viewportChecker({
-            callbackFunction: function () {
-                $('.mobile_footer_hr').css('width', '92%');
-                $('.social_fot > a > svg').css('transform', 'scale(1)');
-            }
-
-        });
-    } else {
-        $('.mobile_footer_hr').viewportChecker({
-            callbackFunction: function () {
-                $('.mobile_footer_hr').css('width', '92%');
-                $('.social_fot > a > svg').css('transform', 'scale(1)');
-            }
-
-        });
-    }
         // Вызов всех анимаций
         setTimeout (sfera_grow_more, 1);
         setTimeout (sfera_grow_norm, 1000);
