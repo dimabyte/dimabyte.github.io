@@ -140,8 +140,8 @@ $(function() {
         }
         // Проявление основной части хэдера
         function header_show(){
-            $('.Girl').css('opacity', '1').css('filter', 'blur(0px)').css('transform', 'translateY(0)');
-            $('.city').css('opacity', '1').css('filter', 'blur(0px)').css('transform', 'translateY(0)');
+            $('.Girl').css('opacity', '0.7').css('filter', 'blur(0px)').css('transform', 'translateY(0)');
+            $('.city').css('opacity', '0.7').css('filter', 'blur(0px)').css('transform', 'translateY(0)');
             $('.and').css('opacity', '1');
         }
 
@@ -188,6 +188,8 @@ $(function() {
             $('#Dot_2').css('opacity', '1');
             $('#Dot_2 div:nth-child(1)').css('opacity', '1');
             $('#Dot_1 div:nth-child(1)').css('opacity', '1');
+            $('.Girl').css('opacity', '1');
+            $('.city').css('opacity', '1');
 
         }
         function second_dots() {
