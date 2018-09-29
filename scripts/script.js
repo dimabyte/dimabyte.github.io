@@ -20,8 +20,8 @@ $(function() {
                 $('.preload_back').css('height', '650px');
             }
             if (wind >= '1315' && wind < '1590' ) {
-                $('.preloader').css('height', '530px');
-                $('.preload_back').css('height', '530px');
+                $('.preloader').css('height', '610px');
+                $('.preload_back').css('height', '610px');
             }
             if (wind >= '1000' && wind < '1315' ) {
                 $('.preloader').css('height', '430px');
@@ -69,7 +69,11 @@ $(function() {
                 $('#sixth_circle').css('opacity', '0.9');
                 $('#seventh_circle').css('opacity', '0.9');
             } else {
-                $('.sphere').css('transform', 'scale(1)').css('filter', 'blur(0px)').css('-webkit-filter:', 'blur(0px)');
+                if ($(window).width() <= '1370') {
+                    $('.sphere').css('transform', 'scale(1.5)').css('filter', 'blur(0px)').css('-webkit-filter:', 'blur(0px)');
+                } else{
+                    $('.sphere').css('transform', 'scale(1)').css('filter', 'blur(0px)').css('-webkit-filter:', 'blur(0px)');
+                }
                 $('.text_first').css('opacity', '0.7').css('font-size', '23px').css('filter', 'blur(0px)').css('-webkit-filter:', 'blur(0px)');
                 $('.circles').css('opacity', '0.3').css('filter', 'blur(3px)').css('-webkit-filter:', 'blur(3px)');
                 $('#forth_circle').css('opacity', '0.5');
@@ -157,7 +161,11 @@ $(function() {
         }
         // Проявление сферы без буквы 'и'
         function Sphere_show(){
-            $('.I').css('height', '36px').css('width', '36px').css('width', '36px');
+            if ($(window).width() >= '370') {
+                $('.I').css('height', '36px').css('width', '36px');
+            } else{
+                $('.I').css('height', '24px').css('width', '24px');
+            }
             if ($(window).width() >= '850' && $(window).width() <= '1015')  {
                 setTimeout(function () {
                     $('.top_headers').css('opacity', '1');
