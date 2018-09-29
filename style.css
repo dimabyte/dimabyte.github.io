@@ -449,8 +449,7 @@ body {
     height: 100%;
     display: none;
     opacity: 0;
-    filter: blur(0px);
-    transition: 1s;
+    transition: 2s;
 }
 .Girl{
     background-image: url(img/People-min.jpg);
@@ -461,8 +460,7 @@ body {
     height: 100%;
     display: none;
     opacity: 0;
-    filter: blur(0px);
-    transition: 1s;
+    transition: 2s;
 }
 .logotip{
     background-image: url(img/Logo.svg);
