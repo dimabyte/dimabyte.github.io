@@ -1476,7 +1476,7 @@ footer{
 
 
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1620px) {
 
 
 
@@ -1490,7 +1490,46 @@ footer{
     }
     footer{
         padding: 73px 0 51px 0;
+    }
+    .head_text h2 > span{
+        font-size: 42px;
+    }
+    .system h1{
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+    .system h2{
+        font-size: 36px;
+        letter-spacing: 10px;
+        margin-bottom: 7px;
+    }
+    .system h3{
+        font-size: 17px;
+        font-family: "Roboto Medium", sans-serif;
+    }
+    .wrap_main{
+        padding: 84px 0 115px 0;
+    }
+    .kurs{
+        position: relative;
+        top: 10px;
+    }
+    .till_end{
+        position: relative;
+        top: 10px;
+    }
 
+}
+@media screen and (max-width: 1550px) {
+    .wrap_main{
+        padding: 80px 0 115px 0;
+    }
+    .top_headers{
+        position: relative;
+        right: 10px;
+    }
+    .till_end{
+        margin-right: 60px;
     }
 
 }
@@ -1528,6 +1567,13 @@ footer{
     .I{
         margin-left: -4px;
     }
+    .top_headers{
+        position: relative;
+        right: auto;
+    }
+    .till_end{
+        margin-right: 0;
+    }
 
 
 
@@ -1556,9 +1602,15 @@ footer{
     .system h2{
         font-size: 34px;
         letter-spacing: 10px;
+        margin-bottom: 10px;
     }
     .system h1{
         font-size: 25px;
+        margin-bottom: 1px;
+    }
+    .system h3{
+        font-size: 18px;
+        font-family: "Roboto Bold", sans-serif;
     }
     .wrap_main{
         padding: 50px 0 115px 0;
@@ -1573,6 +1625,12 @@ footer{
     }
     .logo{
         left: 12%;
+    }
+    .kurs{
+        top: 0;
+    }
+    .till_end{
+        top: 0;
     }
 
 

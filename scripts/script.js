@@ -15,11 +15,15 @@ $(function() {
                 $('.preloader').css('height', '750px');
                 $('.preload_back').css('height', '750px');
             }
-            if (wind >= '1590' && wind < '1750' ) {
-                $('.preloader').css('height', '650px');
-                $('.preload_back').css('height', '650px');
+            if (wind >= '1580' && wind < '1750' ) {
+                $('.preloader').css('height', '720px');
+                $('.preload_back').css('height', '720px');
             }
-            if (wind >= '1315' && wind < '1590' ) {
+            if (wind >= '1500' && wind < '1580' ) {
+                $('.preloader').css('height', '690px');
+                $('.preload_back').css('height', '690px');
+            }
+            if (wind >= '1315' && wind < '1500' ) {
                 $('.preloader').css('height', '610px');
                 $('.preload_back').css('height', '610px');
             }
