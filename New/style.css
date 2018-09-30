@@ -203,6 +203,7 @@ input::-moz-placeholder { color: #cbcad1; }
 }
 .info{
     display: flex;
+    flex-wrap: wrap;
 }
 .time{
      display: flex;
@@ -475,13 +476,13 @@ input::-moz-placeholder { color: #cbcad1; }
     cursor: pointer;
     justify-content: center;
     align-items: center;
-    margin: 35px 10px 0 10px;
+    margin: 30px 10px 0 10px;
 }
 .show_more p{
     font-size: 16px;
     font-family: "Roboto Regular", sans-serif;
     color: #919ab2;
-    margin: 0 10px 0 10px;
+    margin: 0 13px 0 13px;
 }
 .show_more img{
     height: 14px;
@@ -807,7 +808,24 @@ footer{
 
 
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 492px) {
+
+    .info{
+        margin-top: 10px;
+        white-space: nowrap;
+    }
+    .comm{
+        margin: 5px 15px 0 0;
+    }
+    .views{
+        margin: 5px 15px 0 0;
+    }
+    .author{
+        margin: 5px 15px 0 0;
+    }
+    .time{
+        margin: 5px 15px 0 0;
+    }
 
 
 
