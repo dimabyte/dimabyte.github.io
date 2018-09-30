@@ -811,6 +811,7 @@ input::-moz-placeholder { color: #cbcad1; }
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .buy_btn{
     height: 70px;
@@ -1561,9 +1562,17 @@ footer{
     }
     .wrap_main{
         padding: 50px 0 115px 0;
+        width: 76%;
+        align-items: center;
     }
     .head_text h2 > span{
         font-size: 40px;
+    }
+    .oplata{
+        width: 100%;
+    }
+    .logo{
+        left: 12%;
     }
 
 
