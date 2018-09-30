@@ -470,6 +470,23 @@ input::-moz-placeholder { color: #cbcad1; }
     height: 10px;
     margin-right: 5px;
 }
+.show_more{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 10px 0 10px;
+}
+.show_more p{
+    font-size: 16px;
+    font-family: "Roboto Regular", sans-serif;
+    color: #919ab2;
+    margin: 0 10px 0 10px;
+}
+.show_more img{
+    height: 14px;
+    width: auto;
+}
 
 
 
@@ -756,6 +773,9 @@ footer{
         margin-top: 20px;
         margin-left: 20px;
     }
+    .show_more{
+        display: none;
+    }
 
 
 
@@ -776,10 +796,10 @@ footer{
     }
     .more_wrap{
         margin-top: 0;
-        padding-top: 8px;
+        padding-top: 20px;
     }
     .more_news p:nth-child(1){
-        margin-bottom: -30px;
+        margin-bottom: -10px;
         text-align: center;
     }
 
