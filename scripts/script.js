@@ -1,5 +1,3 @@
-$('.preloader').css('height', window.innerHeight);
-
 $.afterlag(function() {
 $(function() {
 

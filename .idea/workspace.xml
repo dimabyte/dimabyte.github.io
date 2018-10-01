@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="116bd2ef-a583-4ede-bb00-750122eab5e0" name="Default" comment="ё">
+    <list default="true" id="116bd2ef-a583-4ede-bb00-750122eab5e0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/New/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/New/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
@@ -18,31 +18,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/New/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="443" column="25" lean-forward="true" selection-start-line="443" selection-start-column="25" selection-end-line="443" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/New/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2076">
-              <caret line="132" selection-start-line="132" selection-end-line="132" />
+            <state relative-caret-position="105">
+              <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="50" selection-start-column="50" selection-end-column="50" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -71,6 +58,7 @@
       <find>info</find>
       <find>mai</find>
       <find>comme</find>
+      <find>classNa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,7 +148,7 @@
       <workItem from="1538310590856" duration="2331000" />
       <workItem from="1538334464107" duration="5988000" />
       <workItem from="1538396104941" duration="2612000" />
-      <workItem from="1538421390252" duration="618000" />
+      <workItem from="1538421390252" duration="2754000" />
     </task>
     <task id="LOCAL-00001" summary="Задерка хэдера">
       <created>1538233595774</created>
@@ -204,11 +192,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538336752602</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Фикс прелоудера?">
+      <created>1538423202872</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1538423202872</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18445000" />
+    <option name="totallyTimeSpent" value="20581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -246,7 +241,8 @@
     <MESSAGE value="Ночные правки" />
     <MESSAGE value="Футер для мобильный и десктопов" />
     <MESSAGE value="Адаптация под два макбука" />
-    <option name="LAST_COMMIT_MESSAGE" value="Адаптация под два макбука" />
+    <MESSAGE value="Фикс прелоудера?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Фикс прелоудера?" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/New/style.css">
@@ -342,17 +338,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/New/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2076">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        <state relative-caret-position="105">
+          <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" selection-start-column="50" selection-end-column="50" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
