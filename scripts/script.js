@@ -1,3 +1,5 @@
+
+
 $.afterlag(function() {
 $(function() {
 
@@ -46,6 +48,16 @@ $(function() {
 
         }
         Preload_or();
+
+
+
+
+
+
+
+
+
+        $('.preloader').css('height', window.innerHeight);
         check_little();
     $(window).on('resize', check_little);
 
