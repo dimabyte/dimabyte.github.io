@@ -415,7 +415,7 @@ body {
 }
 
 .preloader{
-    transition: 1s;
+    transition: 0s;
     height: 100vh;
     width: 100%;
     display: flex;
