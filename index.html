@@ -11,9 +11,10 @@
     <meta name="HandheldFriendly" content="true">
 
 </head>
+
 <body style="background: linear-gradient(to bottom, #4c4797 0%,#443eb5 40%,#21154d 100%);">
 <div class="main_wrap">
-    <div class="preloader">
+    <div id="keke" class="preloader">
         <div class="circles" id="first_circle"></div>
         <div class="circles" id="second_circle"></div>
         <div class="circles" id="third_circle"></div>
@@ -32,17 +33,6 @@
         <div class="logo" style="opacity: 0">
             <div class="logotip"></div>
             <h1>Bitbon.today</h1>
-        </div>
-        <div class="src_button" style="opacity: 0">
-            <img src="img/Header_Search.svg">
-            <p>Поиск</p>
-        </div>
-        <div class="src" style="transform: translateY(-200px);">
-            <img class="Lupa_src" src="img/Search_glass.svg">
-            <form>
-                <input id="top_Search" type="text" placeholder="Введите фразу для поиска">
-            </form>
-            <img class="End_src" src="img/Search_close.svg">
         </div>
         <div class="and" style="opacity: 0">
             <div class="head_text" id="head_1">
@@ -71,6 +61,10 @@
         </div>
         <div class="arrow_down bounce" style="opacity: 0" ></div>
     </div>
+    <script>
+        document.getElementById("keke").style.height = window.innerHeight + 'px';
+    </script>
+
     <div class="main">
         <div class="wrap_main" >
             <div class="top_headers">
