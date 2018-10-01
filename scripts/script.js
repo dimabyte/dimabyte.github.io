@@ -58,6 +58,7 @@ $(function() {
 
 
         $('.preloader').css('height', window.innerHeight);
+        $('.preloader').css('transition', '1s');
         check_little();
     $(window).on('resize', check_little);
 
