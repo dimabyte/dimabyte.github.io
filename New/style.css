@@ -206,6 +206,21 @@ input::-moz-placeholder { color: #cbcad1; }
     display: flex;
     flex-wrap: wrap;
 }
+.social_first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social_first img{
+    height:15px;
+    margin: 0 7px 0 7px;
+}
+.social_first img:nth-child(3){
+    height: 13px;
+}
+.social_first img:nth-child(4){
+    height: 12px;
+}
 .time{
      display: flex;
      align-items: center;
