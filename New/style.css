@@ -667,23 +667,22 @@ footer{
 }
 .social_authorization_btns{
     display: flex;
-    margin-right: 83px;
+    margin-right: 58px;
     align-items: center;
 }
-.social_authorization_btns > img:nth-child(1){
+.social_authorization_btns a:nth-child(1) > img{
     height: 23px;
 }
-.social_authorization_btns > img:nth-child(2){
+.social_authorization_btns a:nth-child(2) > img{
     height: 21px;
     margin-left: 26px;
 }
-.social_authorization_btns > img:nth-child(3){
+.social_authorization_btns a:nth-child(3) > img{
     height: 18px;
     margin-left: 20px;
 }
-.social_authorization_btns > img:nth-child(4){
+.social_authorization_btns a:nth-child(4) > img{
     height: 21px;
-
     margin-left: 25px;
 }
 
