@@ -582,7 +582,7 @@ h1, h2, h3, h4, h5, h6 {
 .burger{
     position: fixed;
     right: 10px;
-    top: 30px;
+    top: 34px;
     width: 30px;
     height: 30px;
     cursor: pointer;
