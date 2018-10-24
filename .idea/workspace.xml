@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="116bd2ef-a583-4ede-bb00-750122eab5e0" name="Default" comment="" />
+    <list default="true" id="116bd2ef-a583-4ede-bb00-750122eab5e0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -38,8 +41,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="673" column="20" lean-forward="true" selection-start-line="673" selection-start-column="20" selection-end-line="673" selection-end-column="20" />
+            <state relative-caret-position="462">
+              <caret line="662" column="13" lean-forward="true" selection-start-line="662" selection-start-column="13" selection-end-line="662" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -211,7 +214,7 @@
       <workItem from="1538561525289" duration="599000" />
       <workItem from="1539536134219" duration="866000" />
       <workItem from="1539720605843" duration="2474000" />
-      <workItem from="1540386660708" duration="26118000" />
+      <workItem from="1540386660708" duration="26819000" />
     </task>
     <task id="LOCAL-00001" summary="Задерка хэдера">
       <created>1538233595774</created>
@@ -430,11 +433,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540423118927</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Главная. Фикс plus">
+      <created>1540423380529</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1540423380529</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57239000" />
+    <option name="totallyTimeSpent" value="57940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="133" width="1936" height="1056" extended-state="6" />
@@ -486,7 +496,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Футер" />
     <MESSAGE value="Микро рофлы" />
     <MESSAGE value="Ночные правки" />
     <MESSAGE value="Футер для мобильный и десктопов" />
@@ -511,7 +520,8 @@
     <MESSAGE value="Главная. Кнопка bitbon + цвет при скролле" />
     <MESSAGE value="Главная. Shtorka" />
     <MESSAGE value="Главная. Фикс бургера" />
-    <option name="LAST_COMMIT_MESSAGE" value="Главная. Фикс бургера" />
+    <MESSAGE value="Главная. Фикс plus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Главная. Фикс plus" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -846,8 +856,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="673" column="20" lean-forward="true" selection-start-line="673" selection-start-column="20" selection-end-line="673" selection-end-column="20" />
+        <state relative-caret-position="462">
+          <caret line="662" column="13" lean-forward="true" selection-start-line="662" selection-start-column="13" selection-end-line="662" selection-end-column="13" />
         </state>
       </provider>
     </entry>
