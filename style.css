@@ -632,6 +632,9 @@ h1, h2, h3, h4, h5, h6 {
     top: 16px;
     transform: rotate(-45deg);
 }
+.burger_active{
+    top:30px;
+}
 .menu_btns{
     width: 100%;
     height: 100vh;
