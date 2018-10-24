@@ -63,7 +63,7 @@ $(function() {
                 } else {
                 }
             }
-            $('.active_mobile_menu').css('height', window.innerHeight);
+            $('.active_mobile_menu').css('overflow-y', 'hidden');
 
         });
 
