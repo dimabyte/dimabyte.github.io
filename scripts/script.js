@@ -63,7 +63,6 @@ $(function() {
                 } else {
                 }
             }
-            $('.active_mobile_menu').css('overflow', 'hidden');
 
         });
 
