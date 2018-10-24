@@ -48,32 +48,12 @@ $(function() {
 
         }
         Preload_or();
-        var a = 1;
 
         $('.burger').click(function () {
             $('.mobile_menu').toggleClass('active_mobile_menu');
             $('.menu_btns').toggleClass('active_menu_btns');
             $('.burger').toggleClass('burger_active');
-            if(a % 2 != 0){
-                setTimeout(function () {
-                    $('.menu_btns a:nth-child(1)').toggleClass('active_a')
-                }, 100);
-                setTimeout(function () {
-                    $('.menu_btns a:nth-child(2)').toggleClass('active_a')
-                }, 200);
-                setTimeout(function () {
-                    $('.menu_btns a:nth-child(3)').toggleClass('active_a')
-                }, 400);
-                setTimeout(function () {
-                    $('.menu_btns a:nth-child(4)').toggleClass('active_a')
-                }, 600);
-                setTimeout(function () {
-                    $('.menu_btns a:nth-child(5)').toggleClass('active_a')
-                }, 800);
-            } else{
-                $('.menu_btns a').toggleClass('active_a')
-            }
-            a += 1;
+            $('.menu_btns a').toggleClass('active_a');
         });
 
 
