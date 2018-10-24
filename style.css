@@ -535,7 +535,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     flex-wrap: wrap;
     position: fixed;
-    z-index: 1;
+    z-index: 100000;
     transition: 0.5s;
     opacity: 0;
 }
@@ -584,10 +584,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .scrollable_logo .logotip{
     background-image: url(img/Logo_news.svg);
-}
-.scrollable_logo{
-    top: 9px;
-    transition: 0s !important;
 }
 .burger{
     position: fixed;
@@ -662,9 +658,6 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     display: block;
 }
-.burger_scrollable{
-    top: 9px;
-}
 .menu_btns{
     width: 100%;
     height: 100vh;
@@ -713,6 +706,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #fafafa;
     transition: 0.5s;
     overflow-y:hidden;
+    z-index: 1;
 
 }
 
