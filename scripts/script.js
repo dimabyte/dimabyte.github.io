@@ -173,7 +173,7 @@ $(function() {
             $('.Girl').css('transition', '1s');
             $('.city').css('transition', '1s');
             $('#menu').css('opacity', '1');
-            $('.mobile_menu').css('opacity', '1');
+            $('.mobile_menu').css('opacity', '0.95');
         }
         // Проявление сферы без буквы 'и'
         function Sphere_show(){
