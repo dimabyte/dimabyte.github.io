@@ -37,11 +37,11 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="544" column="14" selection-start-line="544" selection-start-column="14" selection-end-line="544" selection-end-column="14" />
+            <state relative-caret-position="311">
+              <caret line="635" column="13" selection-start-line="635" selection-start-column="13" selection-end-line="635" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -61,11 +61,11 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="52" column="45" lean-forward="true" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+            <state relative-caret-position="696">
+              <caret line="178" column="47" selection-start-line="178" selection-start-column="47" selection-end-line="178" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -115,8 +115,8 @@
         <option value="$PROJECT_DIR$/New/index.html" />
         <option value="$PROJECT_DIR$/New/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/scripts/script.js" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -207,7 +207,7 @@
       <workItem from="1538561525289" duration="599000" />
       <workItem from="1539536134219" duration="866000" />
       <workItem from="1539720605843" duration="2474000" />
-      <workItem from="1540386660708" duration="17277000" />
+      <workItem from="1540386660708" duration="18037000" />
     </task>
     <task id="LOCAL-00001" summary="Задерка хэдера">
       <created>1538233595774</created>
@@ -370,11 +370,25 @@
       <option name="project" value="LOCAL" />
       <updated>1540405373549</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Главная. Выровнял">
+      <created>1540409004729</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1540409004729</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Главная. Выровнял">
+      <created>1540409083085</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1540409083085</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48398000" />
+    <option name="totallyTimeSpent" value="49158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="133" width="1936" height="1056" extended-state="6" />
@@ -448,7 +462,8 @@
     <MESSAGE value="Главная. Фикс мобильного меню(Опасити, размеры)" />
     <MESSAGE value="Главная. Инверския цвeта + ускорение" />
     <MESSAGE value="Главная. ускорение + смена лого + актив боди" />
-    <option name="LAST_COMMIT_MESSAGE" value="Главная. ускорение + смена лого + актив боди" />
+    <MESSAGE value="Главная. Выровнял" />
+    <option name="LAST_COMMIT_MESSAGE" value="Главная. Выровнял" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -778,17 +793,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="544" column="14" selection-start-line="544" selection-start-column="14" selection-end-line="544" selection-end-column="14" />
+        <state relative-caret-position="696">
+          <caret line="178" column="47" selection-start-line="178" selection-start-column="47" selection-end-line="178" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/script.js">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="52" column="45" lean-forward="true" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+        <state relative-caret-position="311">
+          <caret line="635" column="13" selection-start-line="635" selection-start-column="13" selection-end-line="635" selection-end-column="13" />
         </state>
       </provider>
     </entry>
