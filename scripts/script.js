@@ -48,6 +48,34 @@ $(function() {
 
         }
         Preload_or();
+        var a = 1;
+
+        $('.burger').click(function () {
+            $('.mobile_menu').toggleClass('active_mobile_menu');
+            $('.menu_btns').toggleClass('active_menu_btns');
+            $('.burger').toggleClass('burger_active');
+            if(a % 2 != 0){
+                setTimeout(function () {
+                    $('.menu_btns a:nth-child(1)').toggleClass('active_a')
+                }, 100);
+                setTimeout(function () {
+                    $('.menu_btns a:nth-child(2)').toggleClass('active_a')
+                }, 200);
+                setTimeout(function () {
+                    $('.menu_btns a:nth-child(3)').toggleClass('active_a')
+                }, 400);
+                setTimeout(function () {
+                    $('.menu_btns a:nth-child(4)').toggleClass('active_a')
+                }, 600);
+                setTimeout(function () {
+                    $('.menu_btns a:nth-child(5)').toggleClass('active_a')
+                }, 800);
+            } else{
+                $('.menu_btns a').toggleClass('active_a')
+            }
+            a += 1;
+        });
+
 
 
 
@@ -164,11 +192,13 @@ $(function() {
             $('.src_button').css('opacity', '1');
             $('.Girl').css('transition', '1s');
             $('.city').css('transition', '1s');
+            $('#menu').css('opacity', '1');
+            $('.mobile_menu').css('opacity', '1');
         }
         // Проявление сферы без буквы 'и'
         function Sphere_show(){
             if ($(window).width() >= '370') {
-                $('.I').css('height', '36px').css('width', '36px');
+                $('.I').css('height', '44px').css('width', '44px');
             } else{
                 $('.I').css('height', '24px').css('width', '24px');
             }
@@ -194,6 +224,7 @@ $(function() {
 
             }
         }
+
 
         // Проявление буквы "и" и точек
         function Litera(){
@@ -222,7 +253,7 @@ $(function() {
         function main_text_show(){
             $('.head_text > h2').css('opacity', '1');
         }
-        // Проявление надписи 'bitbin system'
+        // Проявление надписи 'bitbon system'
         function bitbon_text_show(){
             $('.head_text > h1').css('opacity', '1');
         }
