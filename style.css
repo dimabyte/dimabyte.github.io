@@ -579,6 +579,16 @@ h1, h2, h3, h4, h5, h6 {
 .active_logo .logotip{
     background-image: url(img/Logo_news.svg);
 }
+.scrollable_logo h1{
+    color: black;
+}
+.scrollable_logo .logotip{
+    background-image: url(img/Logo_news.svg);
+}
+.scrollable_logo{
+    top: 9px;
+    transition: 0s !important;
+}
 .burger{
     position: fixed;
     right: 10px;
@@ -632,8 +642,28 @@ h1, h2, h3, h4, h5, h6 {
     top: 16px;
     transform: rotate(-45deg);
 }
-.burger_active{
-    top:30px;
+.burger_scrollable::before{
+    content: '';
+    width: 20px;
+    height: 1px;
+    background: #100100;
+    transition: 0.2s;
+    position: absolute;
+    display: block;
+    top: 10px;
+}
+.burger_scrollable::after{
+    content: '';
+    width: 20px;
+    height: 1px;
+    top:16px;
+    background: #100100;
+    transition: 0.2s;
+    position: absolute;
+    display: block;
+}
+.burger_scrollable{
+    top: 9px;
 }
 .menu_btns{
     width: 100%;
@@ -938,12 +968,15 @@ input::-moz-placeholder { color: #cbcad1; }
     margin-bottom: 12px;
     color: #464646;
 }
+.till_end h5 span{
+    color: green;
+}
 .till_end p{
     font-family: "Roboto Regular", sans-serif;
     font-size: 24px;
     color: #595959;
 }
-.till_end span{
+.till_end p span{
     font-family: "Roboto Bold", sans-serif;
     color: #6b57a6;
 }
@@ -985,11 +1018,40 @@ input::-moz-placeholder { color: #cbcad1; }
     font-size: 20px;
     transition: 1s;
 }
-.buy_btn:hover::before{
-opacity: 0.95;
+.buy_btn:hover::before {
+    opacity: 0.95;
+}
+.buy_btn::after{
+    content: url('img/present.svg');
+    position: absolute;
+    right: -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #6b57a7;
+    background: linear-gradient(to right, #f9c044, #dd8a3d); ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
 .buy_btn h1{
+    color: white;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy_btn h1:after{
+    content: '+';
+    position: absolute;
+    right: 34px;
+    top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     font-family: "Segoe UI", sans-serif;
     font-size: 20px;
@@ -1001,6 +1063,8 @@ opacity: 0.95;
     margin-bottom: 10px;
     text-align: center;
     transition: 1s;
+    width: 100%;
+    max-width: 650px;
 }
 .oplata{
     display: flex;
@@ -2497,6 +2561,18 @@ footer{
     }
     .I{
         font-size: 16px;
+    }
+    .buy_btn h1:after{
+        content: '+';
+        position: absolute;
+        right: 34px;
+        top: 18px;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: "Segoe UI", sans-serif;
+        font-size: 20px;
     }
 }
 

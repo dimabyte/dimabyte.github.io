@@ -56,8 +56,28 @@ $(function() {
             $('.logo').toggleClass('active_logo');
             $('.menu_btns a').toggleClass('active_a');
             $('body').toggleClass('active_body');
+            let scrolling = window.pageYOffset || document.documentElement.scrollTop;
+            if($(window).width() < 1000) {
+                if (scrolling > window.innerHeight) {
+                    $('.burger').toggleClass('burger_scrollable');
+                } else {
+                }
+            }
 
         });
+
+    window.onscroll = function() {
+       let scrolling = window.pageYOffset || document.documentElement.scrollTop;
+       if($(window).width() < 1000) {
+           if (scrolling > window.innerHeight) {
+               $('.burger').addClass('burger_scrollable');
+               $('.logo').addClass('scrollable_logo');
+           } else {
+               $('.burger').removeClass('burger_scrollable');
+               $('.logo').removeClass('scrollable_logo');
+           }
+       }
+    };
 
 
 
