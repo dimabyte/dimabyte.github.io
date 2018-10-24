@@ -2137,6 +2137,18 @@ footer{
         color: #464646;
         margin-bottom: 7px;
     }
+    .buy_btn h1:after{
+        content: '+';
+        position: absolute;
+        right: 34px;
+        top: 21px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: "Segoe UI", sans-serif;
+        font-size: 20px;
+    }
     .b_u h2{
         font-family: "Segoe UI Regular", sans-serif;
         font-size: 20px;
