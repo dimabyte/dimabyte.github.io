@@ -63,13 +63,14 @@ $(function() {
                 } else {
                 }
             }
+            $('.active_mobile_menu').css('height', window.innerHeight);
 
         });
 
     window.onscroll = function() {
        let scrolling = window.pageYOffset || document.documentElement.scrollTop;
        if($(window).width() < 1000) {
-           if (scrolling > (window).innerHeight - 100) {
+           if (scrolling > window.innerHeight - 100) {
                $('.burger').addClass('burger_scrollable');
                $('.logo').addClass('scrollable_logo');
            } else {
