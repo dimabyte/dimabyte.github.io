@@ -69,7 +69,7 @@ $(function() {
     window.onscroll = function() {
        let scrolling = window.pageYOffset || document.documentElement.scrollTop;
        if($(window).width() < 1000) {
-           if (scrolling > window.innerHeight) {
+           if (scrolling > (window).innerHeight) {
                $('.burger').addClass('burger_scrollable');
                $('.logo').addClass('scrollable_logo');
            } else {
