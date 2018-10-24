@@ -502,24 +502,24 @@ h1, h2, h3, h4, h5, h6 {
     top: 17px;
     height: 1px;
     background: white;
-    transition: 1s;
+    transition: 0.2s;
     position: absolute;
     display: block;
 }
 #menu a:nth-child(1):hover::after{
-    width: 50px;
+    width: 25px;
 }
 #menu a:nth-child(2):hover::after{
-    width: 60px;
+    width: 30px;
 }
 #menu a:nth-child(3):hover::after{
-    width: 45px;
+    width: 22px;
 }
 #menu a:nth-child(4):hover::after{
-    width: 115px;
+    width: 57px;
 }
 #menu a:nth-child(5):hover::after{
-    width: 60px;
+    width: 30px;
 }
 #menu img{
     height: 13px;
