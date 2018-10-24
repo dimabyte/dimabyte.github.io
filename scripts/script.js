@@ -53,7 +53,10 @@ $(function() {
             $('.mobile_menu').toggleClass('active_mobile_menu');
             $('.menu_btns').toggleClass('active_menu_btns');
             $('.burger').toggleClass('burger_active');
+            $('.logo').toggleClass('active_logo');
             $('.menu_btns a').toggleClass('active_a');
+            $('body').toggleClass('active_body');
+
         });
 
 
