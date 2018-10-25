@@ -460,152 +460,188 @@ $(function() {
         }
     $( ".Global" ).hover(
         function() {
-            if($('.Global').attr('class').indexOf('active_little') !== -1) {
+            console.log($(window).width());
+            if($(window).width() > 1000){
+                if($('.Global').attr('class').indexOf('active_little') !== -1) {
 
-            } else{
+                } else{
 
-                if ($(window).width() <= '1018') {
-                    $('.Global > .underline').css('width', '20%').css('min-width', '40px').css('opacity', '1');
-                } else {
-                    $('.Global > .underline').css('width', '30%').css('opacity', '1');
+                    if ($(window).width() <= '1018') {
+                        $('.Global > .underline').css('width', '20%').css('min-width', '40px').css('opacity', '1');
+                    } else {
+                        $('.Global > .underline').css('width', '30%').css('opacity', '1');
+                    }
+
                 }
-
             }
         }, function() {
-            if($('.Global').attr('class').indexOf('active_little') !== -1) {
+            if($(window).width() > 1000){
+                if($('.Global').attr('class').indexOf('active_little') !== -1) {
 
-            } else{
+                } else{
 
-                if ($(window).width() <= '1018') {
-                    $('.Global > .underline').css('width', '0').css('min-width', '0px').css('opacity', '0');
-                } else {
-                    $('.Global > .underline').css('width', '0').css('opacity', '0');
+                    if ($(window).width() <= '1018') {
+                        $('.Global > .underline').css('width', '0').css('min-width', '0px').css('opacity', '0');
+                    } else {
+                        $('.Global > .underline').css('width', '0').css('opacity', '0');
+                    }
+
                 }
-
             }
         }
     );
     $( ".Tech" ).hover(
         function() {
-            if($(this).attr('class').indexOf('active_little') !== -1) {
+            if($(window).width() > 1000){
 
-            } else{
+                if($(this).attr('class').indexOf('active_little') !== -1) {
 
-                if ($(window).width() <= '1018') {
-                    $('.Tech > .underline').css('width', '20%').css('min-width', '40px').css('opacity', '1');
-                } else {
-                    $('.Tech > .underline').css('width', '30%').css('opacity', '1');
+                } else{
+
+                    if ($(window).width() <= '1018') {
+                        $('.Tech > .underline').css('width', '20%').css('min-width', '40px').css('opacity', '1');
+                    } else {
+                        $('.Tech > .underline').css('width', '30%').css('opacity', '1');
+                    }
+
                 }
-
             }
         }, function() {
-            if($(this).attr('class').indexOf('active_little') !== -1) {
+            if($(window).width() > 1000){
+                if($(this).attr('class').indexOf('active_little') !== -1) {
 
-            } else{
+                } else{
 
-                if ($(window).width() <= '1018') {
-                    $('.Tech > .underline').css('width', '0').css('min-width', '0px').css('opacity', '0');
-                } else {
-                    $('.Tech > .underline').css('width', '0').css('opacity', '0');
+                    if ($(window).width() <= '1018') {
+                        $('.Tech > .underline').css('width', '0').css('min-width', '0px').css('opacity', '0');
+                    } else {
+                        $('.Tech > .underline').css('width', '0').css('opacity', '0');
+                    }
+
                 }
-
             }
+
         }
     );
     $( ".About" ).hover(
         function() {
-            if($(this).attr('class').indexOf('active_little') !== -1) {
+            if($(window).width() > 1000){
+                if($(this).attr('class').indexOf('active_little') !== -1) {
 
-            } else{
+                } else{
 
-                if ($(window).width() <= '1018') {
-                    $('.About > .underline').css('width', '20%').css('min-width', '40px').css('opacity', '1');
-                } else {
-                    $('.About > .underline').css('width', '30%').css('opacity', '1');
+                    if ($(window).width() <= '1018') {
+                        $('.About > .underline').css('width', '20%').css('min-width', '40px').css('opacity', '1');
+                    } else {
+                        $('.About > .underline').css('width', '30%').css('opacity', '1');
+                    }
+
                 }
-
             }
+
         }, function() {
-            if($(this).attr('class').indexOf('active_little') !== -1) {
+            if($(window).width() > 1000){
+                if($(this).attr('class').indexOf('active_little') !== -1) {
 
-            } else{
+                } else{
 
-                if ($(window).width() <= '1018') {
-                    $('.About > .underline').css('width', '0').css('min-width', '0px').css('opacity', '0');
-                } else {
-                    $('.About > .underline').css('width', '0').css('opacity', '0');
+                    if ($(window).width() <= '1018') {
+                        $('.About > .underline').css('width', '0').css('min-width', '0px').css('opacity', '0');
+                    } else {
+                        $('.About > .underline').css('width', '0').css('opacity', '0');
+                    }
+
                 }
-
             }
+
         }
     );
     $( ".Meaning" ).hover(
+
         function() {
-            if($(this).attr('class').indexOf('active_little') !== -1) {
+            if($(window).width() > 1000){
+                if($(this).attr('class').indexOf('active_little') !== -1) {
 
-            } else{
+                } else{
 
-                if ($(window).width() <= '1018') {
-                    $('.Meaning > .underline').css('width', '20%').css('min-width', '40px').css('opacity', '1');
-                } else {
-                    $('.Meaning > .underline').css('width', '30%').css('opacity', '1');
+                    if ($(window).width() <= '1018') {
+                        $('.Meaning > .underline').css('width', '20%').css('min-width', '40px').css('opacity', '1');
+                    } else {
+                        $('.Meaning > .underline').css('width', '30%').css('opacity', '1');
+                    }
+
                 }
-
             }
+
         }, function() {
-            if($(this).attr('class').indexOf('active_little') !== -1) {
+            if($(window).width() > 1000){
+                if($(this).attr('class').indexOf('active_little') !== -1) {
 
-            } else{
+                } else{
 
-                if ($(window).width() <= '1018') {
-                    $('.Meaning > .underline').css('width', '0').css('min-width', '0px').css('opacity', '0');
-                } else {
-                    $('.Meaning > .underline').css('width', '0').css('opacity', '0');
+                    if ($(window).width() <= '1018') {
+                        $('.Meaning > .underline').css('width', '0').css('min-width', '0px').css('opacity', '0');
+                    } else {
+                        $('.Meaning > .underline').css('width', '0').css('opacity', '0');
+                    }
+
                 }
-
             }
+
         }
     );
     $(".about_btn").hover(
         function() {
-            if($(this).attr('class').indexOf('active_big_btn') !== -1) {
+            if($(window).width() > 1000){
+                if($(this).attr('class').indexOf('active_big_btn') !== -1) {
 
-            } else{
+                } else{
 
                     $(this).css('background', 'rgba(97, 99, 185, 0.1)');
                     $('.about_btn > h3').css('color', '#6668a9');
 
+                }
             }
-        }, function() {
-            if($(this).attr('class').indexOf('active_big_btn') !== -1) {
 
-            } else{
+        }, function() {
+            if($(window).width() > 1000){
+                if($(this).attr('class').indexOf('active_big_btn') !== -1) {
+
+                } else{
 
                     $(this).css('background', 'white');
                     $('.about_btn > h3').css('color', '#7b7dc3');
 
+                }
             }
+
         }
     );
     $( ".news_btn" ).hover(
         function() {
-            if($(this).attr('class').indexOf('active_big_btn') !== -1) {
+            if($(window).width() > 1000){
+                if($(this).attr('class').indexOf('active_big_btn') !== -1) {
 
-            } else{
+                } else{
 
                     $(this).css('background', 'rgba(97, 99, 185, 0.1)');
                     $('.news_btn > h3').css('color', '#6668a9');
 
+                }
             }
-        }, function() {
-            if($(this).attr('class').indexOf('active_big_btn') !== -1) {
 
-            } else{
+        }, function() {
+            if($(window).width() > 1000){
+                if($(this).attr('class').indexOf('active_big_btn') !== -1) {
+
+                } else{
 
                     $(this).css('background', 'white');
                     $('.news_btn > h3').css('color', '#7b7dc3');
 
+                }
             }
+
         }
     );
 
@@ -616,9 +652,15 @@ $(function() {
 
     $(".article").hover(
         function() {
-            $(this).find('h1').css('color', '#4648a5')
+            if($(window).width() > 1000){
+                $(this).find('h1').css('color', '#4648a5')
+            }
+
         }, function() {
-            $(this).find('h1').css('color', 'black')
+            if($(window).width() > 1000){
+                $(this).find('h1').css('color', 'black')
+            }
+
         }
     );
         // Смена цвета иконок при наведении в футере
