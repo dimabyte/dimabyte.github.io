@@ -545,7 +545,6 @@ h1, h2, h3, h4, h5, h6 {
     position: fixed;
     z-index: 1;
     transition: 0.5s;
-    opacity: 0.5;
 }
 .mobile_menu > .logo{
     position: fixed;
@@ -586,9 +585,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .scrollable_logo .logotip{
     background-image: url(img/Logo_news.svg);
+    width: 25px;
+    height: 25px;
 }
 .mobile_menu > .scrollable_logo{
-    top:1px;
+    top:6px;
+}
+.mobile_menu > .scrollable_logo h1{
+    line-height: 28px;
 }
 .mobile_menu > .active_logo{
     top: 32px;
@@ -674,7 +678,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
 }
 .burger_scrollable{
-    top: 8px;
+    top: 5px;
 }
 .menu_btns{
     width: 100%;
@@ -683,6 +687,8 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transform: translateY(-2000px);
+
 }
 .menu_a{
     margin: 15px 0 15px 0;
@@ -692,6 +698,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #100100;
     font-family: "Roboto Light", sans-serif;
     transform: scale(1.3) translateY(-20px);
+    z-index: 10000;
 }
 .active_menu_btns a:nth-child(1){
     transition-delay: 0.1s;
@@ -714,17 +721,21 @@ h1, h2, h3, h4, h5, h6 {
     transform: scale(1) translateY(0);
 }
 .active_menu_btns{
+    transform: translateY(0);
 
 }
 .scrollable_mobile_menu{
     background: #fafafa;
     height: 40px;
+    opacity: 0.9 !important;
 }
 .active_mobile_menu{
-    height: 100vh;
+    height: calc(100vh + 1px);
     background: #fafafa;
     transition: 0.5s;
     overflow-y:hidden;
+    opacity: 0.96 !important;
+
 }
 
 
@@ -1556,6 +1567,9 @@ footer{
     font-family: "Roboto Regular", sans-serif;
     max-width: 1200px;
 }
+.bottom_wrap p:nth-child(2){
+    color: #4d4d4d;
+}
 
 .treaties{
     display: flex;
@@ -2112,7 +2126,7 @@ footer{
     }
     footer{
 
-        padding: 50px 0 30px 0;
+        padding: 72px 0 30px 0;
     }
     .footer_wrap{
         flex-direction: column;
@@ -2125,14 +2139,14 @@ footer{
     }
     .bottom_text{
         height: auto;
-        padding: 6px 0 0 0;
+        padding: 35px 0 0 0;
     }
     .treaties{
         flex-direction: column;
         width: 100%;
     }
     .treaties a{
-        margin-top: 34px;
+        margin-bottom: 27px;
         font-size: 13px;
     }
     .treaties a:nth-child(1){
@@ -2149,7 +2163,7 @@ footer{
         width: 100%;
         text-align: center;
         font-size: 13px;
-        margin-top: 38px;
+        margin-top: 7px;
         padding: 20px 0 20px 0;
     }
     .left_fot{
@@ -2168,6 +2182,9 @@ footer{
         margin-top: 35px;
 
     }
+    .down_left{
+        margin-top: 28px;
+    }
     .social_fot{
         justify-content: space-between;
         flex-wrap: wrap;
@@ -2177,8 +2194,26 @@ footer{
 
     }
     .footer_buy{
-        left: 0;
+        left: 21px;
         top:0;
+    }
+    .footer_buy_btn{
+        height: 57px;
+        width: 225px;
+    }
+    .footer_buy_btn::before{
+        height: 57px;
+        width: 225px;
+        font-size: 18px;
+    }
+    .footer_buy_btn h1{
+        font-size: 18px;
+    }
+    .footer_buy p{
+        margin: 0 6px 5px 6px;
+    }
+    .footer_buy img{
+        margin: 0 0 10px 0;
     }
     .logo_footer{
         justify-content: center;
@@ -2189,11 +2224,11 @@ footer{
         transition: 1s;
     }
     .logo_footer h1{
-        line-height: 33px;
+        line-height: 46px;
     }
     .logo_footer > .logotip{
-        width: 33px;
-        height: 33px;
+        width: 43px;
+        height: 43px;
     }
     .right_fot p{
         font-family: "Roboto Regular", sans-serif;
