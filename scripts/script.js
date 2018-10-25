@@ -274,11 +274,18 @@ $(function() {
         }
 
         // Смена статей в блоке новостей
+
+
+
         $('.news_btn').click(function () {
             $('.about_btn').css('transition', '0s');
             $(this).css('transition', '0s');
             $(this).addClass('active_big_btn');
             $('.about_btn').removeClass('active_big_btn');
+            $('.Meaning').removeClass('active_little');
+            $('.About').removeClass('active_little');
+            $('.Tech').removeClass('active_little');
+            $('.Global').addClass('active_little');
             setTimeout(function () {
                 $('.about_btn').css('transition', '1s');
                 $('.news_btn').css('transition', '1s');
@@ -292,6 +299,10 @@ $(function() {
             $('.news_btn').css('transition', '0s');
             $(this).addClass('active_big_btn');
             $('.news_btn').removeClass('active_big_btn');
+            $('.Meaning').addClass('active_little');
+            $('.About').removeClass('active_little');
+            $('.Tech').removeClass('active_little');
+            $('.Global').removeClass('active_little');
             setTimeout(function () {
                 $('.about_btn').css('transition', '1s');
                 $('.news_btn').css('transition', '1s');
@@ -302,7 +313,10 @@ $(function() {
 
         $('.Global').click(function () {
             $(this).addClass('active_little');
+            $('.About').removeClass('active_little');
+            $('.Meaning').removeClass('active_little');
             $('.Tech').removeClass('active_little');
+
             check_little();
             check_big();
 
@@ -310,6 +324,27 @@ $(function() {
         $('.Tech').click(function () {
             $(this).addClass('active_little');
             $('.Global').removeClass('active_little');
+            $('.About').removeClass('active_little');
+            $('.Meaning').removeClass('active_little');
+            check_little();
+            check_big();
+
+        });
+        $('.About').click(function () {
+            $(this).addClass('active_little');
+            $('.Global').removeClass('active_little');
+            $('.Meaning').removeClass('active_little');
+            $('.Tech').removeClass('active_little');
+
+            check_little();
+            check_big();
+
+        });
+        $('.Meaning').click(function () {
+            $(this).addClass('active_little');
+            $('.Global').removeClass('active_little');
+            $('.About').removeClass('active_little');
+            $('.Tech').removeClass('active_little');
             check_little();
             check_big();
 
@@ -327,36 +362,55 @@ $(function() {
 
         function check_big(){
             if($('#News').attr('class').indexOf('active_big_btn') !== -1) {
-                $('.little_btns').css('display', 'flex');
                 $('.news_btn').css('background', '#6163b9');
                 $('.news_btn > h3').css('color', 'white');
                 $('.about_btn').css('background', 'white');
                 $('.about_btn > h3').css('color', '#6163b9');
+                $('.Meaning').css('display', 'none');
+                $('.About').css('display', 'none');
+                $('.Tech').css('display', 'flex');
+                $('.Global').css('display', 'flex');
                 if($('.Global').attr('class').indexOf('active_little') !== -1) {
                     $('.Global_news').css('display', 'flex');
-                    $('.about_News').css('display', 'none');
+                    $('.About_news').css('display', 'none');
                     $('.Tech_news').css('display', 'none');
+                    $('.Meaning_news').css('display', 'none');
 
                 } else {
                     $('.Global_news').css('display', 'none');
-                    $('.about_News').css('display', 'none');
+                    $('.About_news').css('display', 'none');
                     $('.Tech_news').css('display', 'flex');
+                    $('.Meaning_news').css('display', 'none');
                 }
             } else {
-                $('.Global_news').css('display', 'none');
-                $('.about_News').css('display', 'flex');
-                $('.Tech_news').css('display', 'none');
-                $('.little_btns').css('display', 'none');
                 $('.news_btn').css('background', 'white');
                 $('.news_btn > h3').css('color', '#6163b9');
                 $('.about_btn').css('background', '#6163b9');
                 $('.about_btn > h3').css('color', 'white');
+                $('.Global').css('display', 'none');
+                $('.Tech').css('display', 'none');
+                $('.Meaning').css('display', 'flex');
+                $('.About').css('display', 'flex');
+                if($('.Meaning').attr('class').indexOf('active_little') !== -1) {
+                    $('.Global_news').css('display', 'none');
+                    $('.About_news').css('display', 'none');
+                    $('.Tech_news').css('display', 'none');
+                    $('.Meaning_news').css('display', 'flex');
+                } else{
+                    $('.Global_news').css('display', 'none');
+                    $('.About_news').css('display', 'flex');
+                    $('.Tech_news').css('display', 'none');
+                    $('.Meaning_news').css('display', 'none');
+                }
             }
+            check_little()
         }
         function check_little(){
             if($('.Global').attr('class').indexOf('active_little') !== -1) {
                 $('.Global > .underline').css('opacity', '1').css('display', 'block');
                 $('.Tech > .underline').css('opacity', '0').css('width', '0').css('min-width', '0');
+                $('.Meaning > .underline').css('opacity', '0').css('width', '0').css('min-width', '0');
+                $('.About > .underline').css('opacity', '0').css('width', '0').css('min-width', '0');
                 setTimeout(function () {
                     if ($(window).width() <= '998') {
                         $('.Global > .underline').css('width', '30%').css('min-width', '120px');
@@ -364,14 +418,43 @@ $(function() {
                         $('.Global > .underline').css('width', '90%');
                     }
                 }, 1)
-            } else {
+            }
+            if($('.Tech').attr('class').indexOf('active_little') !== -1) {
                 $('.Tech > .underline').css('opacity', '1').css('display', 'block');
                 $('.Global > .underline').css('opacity', '0').css('width', '0').css('min-width', '0');
+                $('.Meaning > .underline').css('opacity', '0').css('width', '0').css('min-width', '0');
+                $('.About > .underline').css('opacity', '0').css('width', '0').css('min-width', '0');
                 setTimeout(function () {
                     if ($(window).width() <= '998') {
                         $('.Tech > .underline').css('width', '30%').css('min-width', '120px');
                     } else {
                         $('.Tech > .underline').css('width', '90%');
+                    }
+                }, 1)
+            }
+            if($('.Meaning').attr('class').indexOf('active_little') !== -1) {
+                $('.Meaning > .underline').css('opacity', '1').css('display', 'block');
+                $('.Global > .underline').css('opacity', '0').css('width', '0').css('min-width', '0');
+                $('.Tech > .underline').css('opacity', '0').css('width', '0').css('min-width', '0');
+                $('.About > .underline').css('opacity', '0').css('width', '0').css('min-width', '0');
+                setTimeout(function () {
+                    if ($(window).width() <= '998') {
+                        $('.Meaning > .underline').css('width', '30%').css('min-width', '120px');
+                    } else {
+                        $('.Meaning > .underline').css('width', '90%');
+                    }
+                }, 1)
+            }
+            if($('.About').attr('class').indexOf('active_little') !== -1) {
+                $('.About > .underline').css('opacity', '1').css('display', 'block');
+                $('.Global > .underline').css('opacity', '0').css('width', '0').css('min-width', '0');
+                $('.Tech > .underline').css('opacity', '0').css('width', '0').css('min-width', '0');
+                $('.Meaning > .underline').css('opacity', '0').css('width', '0').css('min-width', '0');
+                setTimeout(function () {
+                    if ($(window).width() <= '998') {
+                        $('.About > .underline').css('width', '30%').css('min-width', '120px');
+                    } else {
+                        $('.About > .underline').css('width', '90%');
                     }
                 }, 1)
             }
@@ -430,6 +513,60 @@ $(function() {
             }
         }
     );
+    $( ".About" ).hover(
+        function() {
+            if($(this).attr('class').indexOf('active_little') !== -1) {
+
+            } else{
+
+                if ($(window).width() <= '1018') {
+                    $('.About > .underline').css('width', '20%').css('min-width', '40px').css('opacity', '1');
+                } else {
+                    $('.About > .underline').css('width', '30%').css('opacity', '1');
+                }
+
+            }
+        }, function() {
+            if($(this).attr('class').indexOf('active_little') !== -1) {
+
+            } else{
+
+                if ($(window).width() <= '1018') {
+                    $('.About > .underline').css('width', '0').css('min-width', '0px').css('opacity', '0');
+                } else {
+                    $('.About > .underline').css('width', '0').css('opacity', '0');
+                }
+
+            }
+        }
+    );
+    $( ".Meaning" ).hover(
+        function() {
+            if($(this).attr('class').indexOf('active_little') !== -1) {
+
+            } else{
+
+                if ($(window).width() <= '1018') {
+                    $('.Meaning > .underline').css('width', '20%').css('min-width', '40px').css('opacity', '1');
+                } else {
+                    $('.Meaning > .underline').css('width', '30%').css('opacity', '1');
+                }
+
+            }
+        }, function() {
+            if($(this).attr('class').indexOf('active_little') !== -1) {
+
+            } else{
+
+                if ($(window).width() <= '1018') {
+                    $('.Meaning > .underline').css('width', '0').css('min-width', '0px').css('opacity', '0');
+                } else {
+                    $('.Meaning > .underline').css('width', '0').css('opacity', '0');
+                }
+
+            }
+        }
+    );
     $(".about_btn").hover(
         function() {
             if($(this).attr('class').indexOf('active_big_btn') !== -1) {
@@ -472,6 +609,12 @@ $(function() {
             }
         }
     );
+
+
+
+
+
+
     $(".article").hover(
         function() {
             $(this).find('h1').css('color', '#4648a5')

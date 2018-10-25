@@ -1244,8 +1244,6 @@ input::-moz-placeholder { color: #cbcad1; }
     cursor: pointer;
 
 }
-.Global h4{
-}
 .line_btn{
     display: none;
     width: 100%;
@@ -1253,6 +1251,22 @@ input::-moz-placeholder { color: #cbcad1; }
     transition: 1s;
 }
 .Tech{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    flex-wrap: nowrap;
+}
+.Meaning{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    flex-wrap: nowrap;
+}
+.About{
     width: 50%;
     align-items: center;
     display: flex;
@@ -1365,7 +1379,14 @@ input::-moz-placeholder { color: #cbcad1; }
     margin-right: 6px;
 }
 
-.about_News{
+.About_news{
+     display: none;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding-top: 26px;
+ }
+.Meaning_news{
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -2271,7 +2292,10 @@ footer{
     .Global_news{
         padding-top: 25px;
     }
-    .about_News{
+    .About_news{
+        padding-top: 25px;
+    }
+    .Meaning_news{
         padding-top: 25px;
     }
     .tech_article{
