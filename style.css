@@ -2129,6 +2129,7 @@ footer{
     }
     .treaties{
         flex-direction: column;
+        width: 100%;
     }
     .treaties a{
         margin-top: 34px;
