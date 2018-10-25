@@ -588,7 +588,7 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url(img/Logo_news.svg);
 }
 .mobile_menu > .scrollable_logo{
-    top:12px;
+    top:1px;
 }
 .mobile_menu > .active_logo{
     top: 32px;
@@ -674,7 +674,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
 }
 .burger_scrollable{
-    top: 15px;
+    top: 8px;
 }
 .menu_btns{
     width: 100%;
@@ -718,7 +718,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .scrollable_mobile_menu{
     background: #fafafa;
-    height: 60px;
+    height: 40px;
 }
 .active_mobile_menu{
     height: 100vh;
@@ -2311,6 +2311,10 @@ footer{
         color: white;
         font-family: "Segoe UI", sans-serif;
         font-size: 20px;
+    }
+    .buy_btn::before{
+        display: none;
+
     }
     .b_u h2{
         font-family: "Segoe UI Regular", sans-serif;

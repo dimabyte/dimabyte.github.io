@@ -460,7 +460,6 @@ $(function() {
         }
     $( ".Global" ).hover(
         function() {
-            console.log($(window).width());
             if($(window).width() > 1000){
                 if($('.Global').attr('class').indexOf('active_little') !== -1) {
 
