@@ -72,9 +72,11 @@ $(function() {
            if (scrolling > window.innerHeight - 100) {
                $('.burger').addClass('burger_scrollable');
                $('.logo').addClass('scrollable_logo');
+               $('.mobile_menu').addClass('scrollable_mobile_menu');
            } else {
                $('.burger').removeClass('burger_scrollable');
                $('.logo').removeClass('scrollable_logo');
+               $('.mobile_menu').removeClass('scrollable_mobile_menu');
            }
        }
     };
