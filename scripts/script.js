@@ -58,7 +58,7 @@ $(function() {
             $('body').toggleClass('active_body');
             let scrolling = window.pageYOffset || document.documentElement.scrollTop;
             if($(window).width() < 1000) {
-                if (scrolling > window.innerHeight) {
+                if (scrolling > 1) {
                     $('.burger').toggleClass('burger_scrollable');
                 } else {
                 }
