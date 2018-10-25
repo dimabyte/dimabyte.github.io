@@ -69,7 +69,7 @@ $(function() {
     window.onscroll = function() {
        let scrolling = window.pageYOffset || document.documentElement.scrollTop;
        if($(window).width() < 1000) {
-           if (scrolling > window.innerHeight - 100) {
+           if (scrolling > 1) {
                $('.burger').addClass('burger_scrollable');
                $('.logo').addClass('scrollable_logo');
                $('.mobile_menu').addClass('scrollable_mobile_menu');
@@ -194,7 +194,6 @@ $(function() {
         // Проявление лого
         function logo_show(){
             $('.logo').css('opacity', '1');
-            $('.src_button').css('opacity', '1');
             $('.Girl').css('transition', '1s');
             $('.city').css('transition', '1s');
             $('#menu').css('opacity', '1');
@@ -269,7 +268,7 @@ $(function() {
         }
 
         function last_transition(){
-            $('.logo').css('transition', '1s');
+            $('.logo').css('transition', '0s');
             $('.preloader').css('transition', '0s');
             $('.preload_back').css('transition', '0s');
         }

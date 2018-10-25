@@ -528,7 +528,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile_menu{
     display: none;
     left: 0;
-    top: 0;
+    top: -1px;
     width: 100%;
     height: 100px;
     justify-content: center;
@@ -573,12 +573,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Bold', sans-serif;
     letter-spacing: 1px;
 }
-.active_logo h1{
-    color: black;
-}
-.active_logo .logotip{
-    background-image: url(img/Logo_news.svg);
-}
 .scrollable_logo h1{
     color: black;
 }
@@ -587,6 +581,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 .mobile_menu > .scrollable_logo{
     top:12px;
+}
+.mobile_menu > .active_logo{
+    top: 32px;
+}
+.active_logo h1{
+    color: black;
+}
+.active_logo .logotip{
+    background-image: url(img/Logo_news.svg);
 }
 
 .burger{
@@ -705,15 +708,15 @@ h1, h2, h3, h4, h5, h6 {
 .active_menu_btns{
 
 }
+.scrollable_mobile_menu{
+    background: #fafafa;
+    height: 60px;
+}
 .active_mobile_menu{
     height: 100vh;
     background: #fafafa;
     transition: 0.5s;
     overflow-y:hidden;
-}
-.scrollable_mobile_menu{
-    background: #fafafa;
-    height: 60px;
 }
 
 
