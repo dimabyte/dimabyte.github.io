@@ -1,6 +1,5 @@
 
 
-$.afterlag(function() {
 $(function() {
 
         // Выставление разной высоты окна для разных экранов
@@ -725,7 +724,6 @@ $(function() {
         setTimeout (last_transition, 4400);
     });
 
-});
 
 
 
