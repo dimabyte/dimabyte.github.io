@@ -52,7 +52,7 @@ $(function() {
             $('.mobile_menu').toggleClass('active_mobile_menu');
             if ($('.menu_btns').attr('class').indexOf('active_menu_btns') !== -1){
                 setTimeout(function () {
-                    $('.menu_btns').css('position', 'relative');
+                    $('.menu_btns').css('position', 'static');
                 },350)
             } else {
                 $('.menu_btns').css('position', 'fixed');

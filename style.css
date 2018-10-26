@@ -336,15 +336,20 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    position: fixed;
+    position: absolute;
     z-index: 1;
-    transition: 0.8s;
+    transition: color 0s, opacity 0s, height 1s;
 }
 .mobile_menu > .logo{
-    position: fixed;
     left: 17px;
     top: 32px;
     display: flex;
+}
+.scrollable_mobile_menu > .logo{
+    position: fixed;
+}
+.scrollable_mobile_menu > .burger{
+    position: fixed;
 }
 .active_body{
     overflow-y:hidden;
@@ -427,7 +432,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .burger{
-    position: fixed;
+    position: absolute;
     right: 10px;
     top: 34px;
     width: 30px;
@@ -511,7 +516,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: fixed;
+    position: static;
     top: 20vh;
     display: flex;
 
@@ -572,6 +577,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #fafafa;
     height: 40px;
     opacity: 0.9 !important;
+    position: fixed;
 }
 .active_mobile_menu{
     height: calc(100vh + 1px);
