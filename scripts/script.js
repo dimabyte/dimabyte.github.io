@@ -69,14 +69,20 @@ $(function() {
     window.onscroll = function() {
        let scrolling = window.pageYOffset || document.documentElement.scrollTop;
        if($(window).width() < 1000) {
-           if (scrolling > 40) {
+           if (scrolling > 1) {
                $('.burger').addClass('burger_scrollable');
                $('.logo').addClass('scrollable_logo');
-               $('.mobile_menu').addClass('scrollable_mobile_menu');
+               $('.mobile_menu').addClass('scrollable_mobile_menu').toggleClass('trans');
+               setTimeout(function () {
+                   $('.mobile_menu').toggleClass('trans');
+               }, 2)
            } else {
                $('.burger').removeClass('burger_scrollable');
                $('.logo').removeClass('scrollable_logo');
-               $('.mobile_menu').removeClass('scrollable_mobile_menu');
+               $('.mobile_menu').removeClass('scrollable_mobile_menu').toggleClass('trans');
+               setTimeout(function () {
+                   $('.mobile_menu').toggleClass('trans');
+               }, 2)
            }
        }
     };
