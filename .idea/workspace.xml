@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="116bd2ef-a583-4ede-bb00-750122eab5e0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="373" column="40" selection-start-line="373" selection-start-column="36" selection-end-line="373" selection-end-column="40" />
+            <state relative-caret-position="252">
+              <caret line="384" column="42" lean-forward="true" selection-start-line="384" selection-start-column="42" selection-end-line="384" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#13;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -43,8 +45,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="412" column="13" lean-forward="true" selection-start-line="412" selection-start-column="13" selection-end-line="412" selection-end-column="13" />
+            <state relative-caret-position="1485">
+              <caret line="563" column="34" selection-start-line="563" selection-start-column="34" selection-end-line="563" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -52,8 +54,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+            <state relative-caret-position="290">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -62,8 +64,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pre</find>
-      <find>prelo</find>
       <find />
       <find>abou</find>
       <find>and</find>
@@ -92,6 +92,8 @@
       <find>top_he</find>
       <find>burger_scrollable</find>
       <find>bur</find>
+      <find>menu_a</find>
+      <find>delay</find>
     </findStrings>
     <replaceStrings>
       <replace>Meaning</replace>
@@ -109,8 +111,8 @@
         <option value="$PROJECT_DIR$/New/style.css" />
         <option value="$PROJECT_DIR$/img/present.svg" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/scripts/script.js" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/scripts/script.js" />
       </list>
     </option>
   </component>
@@ -137,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,7 +151,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,6 +202,8 @@
       <workItem from="1540463527821" duration="543000" />
       <workItem from="1540483970781" duration="19785000" />
       <workItem from="1540544037053" duration="6180000" />
+      <workItem from="1540556679182" duration="1853000" />
+      <workItem from="1540584793150" duration="1946000" />
     </task>
     <task id="LOCAL-00001" summary="Задерка хэдера">
       <created>1538233595774</created>
@@ -509,11 +513,25 @@
       <option name="project" value="LOCAL" />
       <updated>1540550696916</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Главная. Изменение лого">
+      <created>1540556906747</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1540556906747</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Главная. Изменение лого">
+      <created>1540557924925</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1540557924925</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85436000" />
+    <option name="totallyTimeSpent" value="89235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -565,7 +583,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Удалил сферу" />
     <MESSAGE value="Вепнул сферу, убрал задерку у прелоудера" />
     <MESSAGE value="Фикс v4" />
     <MESSAGE value="Попытка вернуть задержку" />
@@ -590,7 +607,8 @@
     <MESSAGE value="Главная. Убрал ховер на мобильных" />
     <MESSAGE value="Главная. Убрал ховер на мобильных * 2 умеьшил меню" />
     <MESSAGE value="Главная. Добавил комментарии в css пофиксил лого + меню" />
-    <option name="LAST_COMMIT_MESSAGE" value="Главная. Добавил комментарии в css пофиксил лого + меню" />
+    <MESSAGE value="Главная. Изменение лого" />
+    <option name="LAST_COMMIT_MESSAGE" value="Главная. Изменение лого" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -902,10 +920,17 @@
     <entry file="file://$PROJECT_DIR$/img/present.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="563" column="34" selection-start-line="563" selection-start-column="34" selection-end-line="563" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="373" column="40" selection-start-line="373" selection-start-column="36" selection-end-line="373" selection-end-column="40" />
+        <state relative-caret-position="252">
+          <caret line="384" column="42" lean-forward="true" selection-start-line="384" selection-start-column="42" selection-end-line="384" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#13;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -924,17 +949,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="412" column="13" lean-forward="true" selection-start-line="412" selection-start-column="13" selection-end-line="412" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+        <state relative-caret-position="290">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>

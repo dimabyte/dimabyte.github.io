@@ -50,6 +50,13 @@ $(function() {
 
         $('.burger').click(function () {
             $('.mobile_menu').toggleClass('active_mobile_menu');
+            if ($('.menu_btns').attr('class').indexOf('active_menu_btns') !== -1){
+                setTimeout(function () {
+                    $('.menu_btns').css('position', 'relative');
+                },350)
+            } else {
+                $('.menu_btns').css('position', 'fixed');
+            }
             $('.menu_btns').toggleClass('active_menu_btns');
             $(this).toggleClass('burger_active');
             $('.logo').toggleClass('active_logo');
@@ -62,7 +69,7 @@ $(function() {
     window.onscroll = function() {
        let scrolling = window.pageYOffset || document.documentElement.scrollTop;
        if($(window).width() < 1000) {
-           if (scrolling > 100) {
+           if (scrolling > 40) {
                $('.burger').addClass('burger_scrollable');
                $('.logo').addClass('scrollable_logo');
                $('.mobile_menu').addClass('scrollable_mobile_menu');
