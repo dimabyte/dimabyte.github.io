@@ -51,19 +51,13 @@ $(function() {
         $('.burger').click(function () {
             $('.mobile_menu').toggleClass('active_mobile_menu');
             $('.menu_btns').toggleClass('active_menu_btns');
-            $('.burger').toggleClass('burger_active');
+            $(this).toggleClass('burger_active');
             $('.logo').toggleClass('active_logo');
             $('.menu_btns a').toggleClass('active_a');
             $('body').toggleClass('active_body');
-            let scrolling = window.pageYOffset || document.documentElement.scrollTop;
-            if($(window).width() < 1000) {
-                if (scrolling > 1) {
-                    $('.burger').toggleClass('burger_scrollable');
-                } else {
-                }
-            }
-
         });
+
+
 
     window.onscroll = function() {
        let scrolling = window.pageYOffset || document.documentElement.scrollTop;
@@ -193,6 +187,7 @@ $(function() {
         // Проявление лого
         function logo_show(){
             $('.logo').css('opacity', '1');
+            $('.desk_logo').css('opacity', '1');
             $('.Girl').css('transition', '1s');
             $('.city').css('transition', '1s');
             $('#menu').css('opacity', '1');
