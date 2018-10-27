@@ -1854,19 +1854,20 @@ footer{
 
 
 
-
-
-@media screen and (max-width: 1620px) {
-
-    /* logo */
-
-
+@media screen and (max-width: 1720px) {
     .desk_logo{
         left: 10%;
     }
     #menu{
         right: 10%;
     }
+}
+
+
+
+@media screen and (max-width: 1620px) {
+
+    /* logo */
     /* //logo// */
 
     /* header */
@@ -2051,6 +2052,12 @@ footer{
         width: 76%;
     }
     /* //news// */
+
+    /* footer */
+    .right_fot{
+        left: 1px;
+    }
+    /* //footer// */
 
 
 
