@@ -361,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
     background-position: center center;
     width: 45px;
     height: 45px;
-    transition: 0.5s;
+    transition: 0s;
 }
 .logo{
     display: flex;
