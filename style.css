@@ -1118,6 +1118,9 @@ h1, h2, h3, h4, h5, h6 {
 .buy_btn:hover::before {
     opacity: 0.95;
 }
+.buy_btn:hover::after {
+    border: 3px solid #a347e8;
+}
 .buy_btn::after{
     content: url('img/present.svg');
     position: absolute;
@@ -1130,6 +1133,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 1s;
 }
 
 
