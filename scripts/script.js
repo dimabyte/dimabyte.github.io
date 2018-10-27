@@ -64,28 +64,41 @@ $(function() {
             $('body').toggleClass('active_body');
         });
 
+        const inst = document.getElementById("burg").getBoundingClientRect()['top'];
 
 
     window.onscroll = function() {
-       let scrolling = window.pageYOffset || document.documentElement.scrollTop;
-       if($(window).width() < 1000) {
-           if (scrolling > 1) {
-               $('.burger').addClass('burger_scrollable');
-               $('.logo').addClass('scrollable_logo');
-               $('.mobile_menu').addClass('scrollable_mobile_menu').toggleClass('trans');
-               setTimeout(function () {
-                   $('.mobile_menu').toggleClass('trans');
-               }, 2)
-           } else {
-               $('.burger').removeClass('burger_scrollable');
-               $('.logo').removeClass('scrollable_logo');
-               $('.mobile_menu').removeClass('scrollable_mobile_menu').toggleClass('trans');
-               setTimeout(function () {
-                   $('.mobile_menu').toggleClass('trans');
-               }, 2)
-           }
-       }
+        let scrolling = window.pageYOffset || document.documentElement.scrollTop;
+        if ($(window).width() < 1000) {
+            if (scrolling > inst) {
+                console.log('yes');
+                $('.burger').addClass('burger_scrollable');
+                $('.logo').addClass('scrollable_logo');
+                $('.mobile_menu').addClass('scrollable_mobile_menu');
+            } else {
+                if (scrolling >= Math.floor(inst / 3) && scrolling < Math.floor(inst / 3) * 2){
+                    $('.logo').addClass('first_logo');
+                    $('.logo').removeClass('second_logo');
+                }
+                if (scrolling >= Math.floor(inst / 3) * 2){
+                    $('.logo').removeClass('first_logo');
+                    $('.logo').addClass('second_logo');
+                }
+                if (scrolling < Math.floor(inst / 3)){
+                    $('.logo').removeClass('first_logo');
+                    $('.logo').removeClass('second_logo');
+                    $('.burger').addClass('burger_scrollable');
+                    $('.logo').addClass('scrollable_logo');
+                    $('.mobile_menu').addClass('scrollable_mobile_menu');
+                }
+                console.log('no');
+                $('.burger').removeClass('burger_scrollable');
+                $('.logo').removeClass('scrollable_logo');
+                $('.mobile_menu').removeClass('scrollable_mobile_menu');
+            }
+        }
     };
+
 
 
 

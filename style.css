@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .mobile_menu > .logo{
     left: 17px;
-    top: 9px;
+    top: 32px;
     display: flex;
 }
 .scrollable_mobile_menu > .logo{
@@ -361,6 +361,7 @@ h1, h2, h3, h4, h5, h6 {
     background-position: center center;
     width: 45px;
     height: 45px;
+    transition: 0.5s;
 }
 .logo{
     display: flex;
@@ -403,6 +404,23 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Bold', sans-serif;
     letter-spacing: 1px;
 }
+.mobile_menu > .logo h1{
+    line-height: 36px;
+}
+.second_logo .logotip{
+    width: 28px;
+    height: 28px;
+}
+.mobile_menu > .second_logo h1{
+    line-height: 28px;
+}
+.mobile_menu > .first_logo h1{
+    line-height: 32px;
+}
+.first_logo .logotip{
+    width: 32px;
+    height: 32px;
+}
 .scrollable_logo h1{
     color: black;
 }
@@ -410,10 +428,9 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url(img/Logo_news.svg);
     width: 25px;
     height: 25px;
-    transform: rotate(180deg);
 }
 .mobile_menu > .scrollable_logo{
-    top:8px;
+    top:9px;
 }
 .mobile_menu > .scrollable_logo h1{
     line-height: 24px;
@@ -434,7 +451,7 @@ h1, h2, h3, h4, h5, h6 {
 .burger{
     position: absolute;
     right: 10px;
-    top: 12px;
+    top: 34px;
     width: 30px;
     height: 30px;
     cursor: pointer;
@@ -585,9 +602,6 @@ h1, h2, h3, h4, h5, h6 {
     overflow-y:hidden;
     opacity: 0.96 !important;
 
-}
-.trans{
-    transition: 0s !important;
 }
 
 
