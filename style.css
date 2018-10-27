@@ -407,20 +407,6 @@ h1, h2, h3, h4, h5, h6 {
 .mobile_menu > .logo h1{
     line-height: 36px;
 }
-.second_logo .logotip{
-    width: 28px;
-    height: 28px;
-}
-.mobile_menu > .second_logo h1{
-    line-height: 28px;
-}
-.mobile_menu > .first_logo h1{
-    line-height: 32px;
-}
-.first_logo .logotip{
-    width: 32px;
-    height: 32px;
-}
 .scrollable_logo h1{
     color: black;
 }
@@ -430,7 +416,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 25px;
 }
 .mobile_menu > .scrollable_logo{
-    top:9px;
+    top:8px;
 }
 .mobile_menu > .scrollable_logo h1{
     line-height: 24px;
@@ -602,6 +588,12 @@ h1, h2, h3, h4, h5, h6 {
     overflow-y:hidden;
     opacity: 0.96 !important;
 
+}
+.position{
+    position: absolute;
+}
+.switch{
+    transition: 0s;
 }
 
 
