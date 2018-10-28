@@ -98,7 +98,7 @@ function draw_all(dots = 90, across = 100, line_width = 1) {
         if (document.documentElement.clientWidth < 1000) {
             dots = 30;
             across = 80;
-            line_width = 0.5
+            line_width = 0.3
         } else {
             dots = 90;
             across = 100;
@@ -109,7 +109,7 @@ function draw_all(dots = 90, across = 100, line_width = 1) {
     if (document.documentElement.clientWidth < 1000) {
         dots = 30;
         across = 80;
-        line_width = 0.5
+        line_width = 0.3
 
     } else {
         dots = 90;
