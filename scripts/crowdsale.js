@@ -96,7 +96,7 @@ function draw_all(dots = 90, across = 100, line_width = 1) {
         canvas.width = sheet.width;
         canvas.height = sheet.height;
         if (document.documentElement.clientWidth < 1000) {
-            dots = 30;
+            dots = 40;
             across = 80;
             line_width = 0.3
         } else {
@@ -107,7 +107,7 @@ function draw_all(dots = 90, across = 100, line_width = 1) {
     });
     init(); //Constructor call
     if (document.documentElement.clientWidth < 1000) {
-        dots = 30;
+        dots = 40;
         across = 80;
         line_width = 0.3
 
