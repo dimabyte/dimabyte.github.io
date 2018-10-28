@@ -89,7 +89,9 @@
         document.getElementById("keke").style.height = window.innerHeight + 'px';
     </script>
     <div class="main">
-        <div class="wrap_main" >
+        <canvas id="crowd_canvas"></canvas>
+
+        <div class="wrap_main" id="lol" >
             <div class="top_headers">
                 <div class="kurs">
                     <p>Стоимость постоянно растёт</p>
@@ -763,6 +765,10 @@
 <script src="scripts/after_lag.js"></script>
 <script src="scripts/jquery.viewportchecker.min.js"></script>
 <script src="scripts/script.js"></script>
+<script src="scripts/crowdsale.js"></script>
+<script>setTimeout(function () {
+    init()
+}, 3000)</script>
 
 
 

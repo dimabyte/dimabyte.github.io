@@ -1,5 +1,3 @@
-
-
 $(function() {
 
         // Выставление разной высоты окна для разных экранов
@@ -774,7 +772,3 @@ $(function() {
         setTimeout (read_more_show, 4400);
         setTimeout (last_transition, 4400);
     });
-
-
-
-
