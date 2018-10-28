@@ -13,7 +13,7 @@ function none_zero(max) { // return random number from [-max;-1) or (1;max)
 
 function draw_all(dots = 90) {
     function init() { //class constructor
-        sheet = new Drawer(0, 0, 300, 400, '#dde3e9', 1, 1, 1);
+        sheet = new Drawer(0, 0, document.documentElement.clientWidth, $('.main').height(), '#dde3e9', 1, 1, 1);
         //sheet with dots
         for (let i = 0; i < dots; i++) { //creating dots
             a.push(new Drawer(
@@ -89,6 +89,18 @@ function draw_all(dots = 90) {
             context.fillRect(this.x, this.y, this.width, this.height);
         };
     }
+
+    $(window).on('resize', function () { //sheet size change
+        sheet.width = document.documentElement.clientWidth;
+        sheet.height = $('.main').height();
+        canvas.width = sheet.width;
+        canvas.height = sheet.height;
+        if (document.documentElement.clientWidth < 1000) {
+            dots = 90
+        } else {
+            dots = 90
+        }
+    });
 
     init(); //Constructor call
 }
