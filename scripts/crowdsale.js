@@ -67,7 +67,7 @@ function draw_all(dots = 90) {
                     context.lineWidth = 2;
                     let line_opacity = (100 - Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5)) / 100;
                     //opacity of line turn on the distance
-                    context.strokeStyle = "hsla(210, 11%, 78%, 1)";
+                    context.strokeStyle = "black";
                     context.stroke();
                 }
                 k -= 1
