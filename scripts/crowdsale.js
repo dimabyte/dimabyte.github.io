@@ -19,7 +19,7 @@ function draw_all(dots = 90) {
             a.push(new Drawer(
                 two_rand(sheet.width - 3, 1), //coordinate by x
                 two_rand(sheet.height - 3, 1), //coordinate by y
-                2, 2, '#b3b8bc', //width, height, color
+                4, 4, 'black', //width, height, color
                 none_zero(2), //x vector
                 none_zero(2), //y vector
             ));

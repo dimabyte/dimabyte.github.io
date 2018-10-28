@@ -62,8 +62,8 @@
       <file leaf-file-name="crowdsale.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/crowdsale.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+            <state relative-caret-position="378">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -229,28 +229,7 @@
       <workItem from="1540649929627" duration="1947000" />
       <workItem from="1540674459650" duration="595000" />
       <workItem from="1540721584827" duration="6548000" />
-      <workItem from="1540729755519" duration="9144000" />
-    </task>
-    <task id="LOCAL-00016" summary="Статья. Микрофикс">
-      <created>1539726897509</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1539726897509</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Главная. Добавил меню">
-      <created>1540399731344</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1540399731344</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Главная. Фикс">
-      <created>1540400009250</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1540400009250</updated>
+      <workItem from="1540729755519" duration="9795000" />
     </task>
     <task id="LOCAL-00019" summary="Главная. Фикс ховера в меню">
       <created>1540400784517</created>
@@ -574,11 +553,32 @@
       <option name="project" value="LOCAL" />
       <updated>1540742479952</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Главная. canvas 1.4.4(Ппытка фикса мобильных)">
+      <created>1540742544364</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1540742544364</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Главная. canvas 1.4.5(Попытка фикса мобильных)">
+      <created>1540742666122</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1540742666122</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Главная. canvas 1.4.6(Попытка фикса мобильных)">
+      <created>1540742765034</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1540742765034</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122357000" />
+    <option name="totallyTimeSpent" value="123008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -631,9 +631,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Главная. добавил разделы новостей" />
-    <MESSAGE value="Главная. Запрет на выделение, убрал афтерлаг, изменил футер." />
-    <MESSAGE value="Главная. Фикс футера" />
     <MESSAGE value="Главная. Убрал ховер на мобильных" />
     <MESSAGE value="Главная. Убрал ховер на мобильных * 2 умеьшил меню" />
     <MESSAGE value="Главная. Добавил комментарии в css пофиксил лого + меню" />
@@ -656,7 +653,10 @@
     <MESSAGE value="Главная. canvas 1.4.1(Ппытка фикса мобильных)" />
     <MESSAGE value="Главная. canvas 1.4.2(Ппытка фикса мобильных)" />
     <MESSAGE value="Главная. canvas 1.4.3(Ппытка фикса мобильных)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Главная. canvas 1.4.3(Ппытка фикса мобильных)" />
+    <MESSAGE value="Главная. canvas 1.4.4(Ппытка фикса мобильных)" />
+    <MESSAGE value="Главная. canvas 1.4.5(Попытка фикса мобильных)" />
+    <MESSAGE value="Главная. canvas 1.4.6(Попытка фикса мобильных)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Главная. canvas 1.4.6(Попытка фикса мобильных)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -999,8 +999,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/crowdsale.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+        <state relative-caret-position="378">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
