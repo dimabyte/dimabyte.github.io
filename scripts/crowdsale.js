@@ -2,7 +2,7 @@ const a = []; // container for dots
 function two_rand(max, min) { //return random number from [min;max)
     return Math.random() * (max - min) + min
 }
-function none_zero(max) { // return random number from [-max;-1) or [1;max)
+function none_zero(max) { // return random number from [-max;-1) or (1;max)
     if(Math.random() > 0.5){
         return Math.random() * (max - 1) + 1
     } else {
@@ -13,7 +13,7 @@ function none_zero(max) { // return random number from [-max;-1) or [1;max)
 
 function draw_all(dots = 90) {
     function init() { //class constructor
-        sheet = new Drawer(0, 0, document.documentElement.clientWidth, $('.main').height(), 'white', 1, 1, 1);
+        sheet = new Drawer(0, 0, document.documentElement.clientWidth, $('.main').height(), '#dde3e9', 1, 1, 1);
         //sheet with dots
         for (let i = 0; i < dots; i++) { //creating dots
             a.push(new Drawer(
@@ -67,7 +67,7 @@ function draw_all(dots = 90) {
                     context.lineWidth = 0.5;
                     let line_opacity = (100 - Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5)) / 100;
                     //opacity of line turn on the distance
-                    context.strokeStyle = "black";
+                    context.strokeStyle = "hsla(210, 11%, 78%," + line_opacity + ")";
                     context.stroke();
                 }
                 k -= 1
