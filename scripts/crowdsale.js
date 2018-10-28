@@ -11,7 +11,7 @@ function none_zero(max) { // return random number from [-max;-1) or [1;max)
 }
 
 
-function draw_all(dots = 90) {
+function draw_all(dots = 90, across = 100, line_width = 1) {
     function init() { //class constructor
         sheet = new Drawer(0, 0, document.documentElement.clientWidth, $('.main').height(), '#dde3e9', 1, 1, 1);
         //sheet with dots
@@ -58,16 +58,16 @@ function draw_all(dots = 90) {
         for (let h = 0; h < j; h++) { //creating and drawing lines
             let k = j - 1;
             while (k !== h) {
-                if (Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5) < 100) {
+                if (Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5) < across) {
                     //if the distance between dots is 100
                     //draw the line between this dots
                     context.beginPath();
                     context.moveTo(a[k].x, a[k].y);
                     context.lineTo(a[h].x, a[h].y);
-                    context.lineWidth = 0.4;
-                    let line_opacity = (100 - Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5)) / 80;
+                    context.lineWidth = line_width;
+                    let line_opacity = (100 - Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5)) / 100;
                     //opacity of line turn on the distance
-                    context.strokeStyle = "hsla(210, 25%, 76%," + line_opacity + ")";
+                    context.strokeStyle = "hsla(210, 10%, 76%," + line_opacity + ")";
                     context.stroke();
                 }
                 k -= 1
@@ -96,10 +96,24 @@ function draw_all(dots = 90) {
         canvas.width = sheet.width;
         canvas.height = sheet.height;
         if (document.documentElement.clientWidth < 1000) {
-            dots = 30
+            dots = 30;
+            across = 80;
+            line_width = 0.5
         } else {
-            dots = 90
+            dots = 90;
+            across = 100;
+            line_width = 1;
         }
     });
     init(); //Constructor call
+    if (document.documentElement.clientWidth < 1000) {
+        dots = 30;
+        across = 80;
+        line_width = 0.5
+
+    } else {
+        dots = 90;
+        across = 100;
+        line_width = 1;
+    }
 }
