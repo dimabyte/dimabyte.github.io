@@ -20,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2688">
-              <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+            <state relative-caret-position="525">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#13;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -53,8 +53,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="36" column="58" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="58" />
+            <state relative-caret-position="-336">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -62,8 +62,8 @@
       <file leaf-file-name="crowdsale.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/crowdsale.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="68" column="61" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
+            <state relative-caret-position="410">
+              <caret line="62" column="40" lean-forward="true" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -229,28 +229,7 @@
       <workItem from="1540649929627" duration="1947000" />
       <workItem from="1540674459650" duration="595000" />
       <workItem from="1540721584827" duration="6548000" />
-      <workItem from="1540729755519" duration="13739000" />
-    </task>
-    <task id="LOCAL-00033" summary="Главная. Фикс меню">
-      <created>1540424626974</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1540424626974</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Главная. Фикс меню">
-      <created>1540425015267</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1540425015267</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Главная. Фикс меню">
-      <created>1540425135595</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1540425135595</updated>
+      <workItem from="1540729755519" duration="16011000" />
     </task>
     <task id="LOCAL-00036" summary="Главная. Фикс меню">
       <created>1540425457372</created>
@@ -574,11 +553,32 @@
       <option name="project" value="LOCAL" />
       <updated>1540750378978</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Главная. canvas 1.5.8(Попытка фикса мобильных)">
+      <created>1540750701291</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1540750701291</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Главная. canvas 1.5.8(Попытка фикса мобильных)">
+      <created>1540750719231</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1540750719231</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Главная. canvas 1.5.9(уПопытка фикса мобильных)">
+      <created>1540751536736</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1540751536736</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126952000" />
+    <option name="totallyTimeSpent" value="129224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -631,8 +631,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Главная. Фикс ховера у кнопки" />
-    <MESSAGE value="Главная. Фикс деск лого и футера" />
     <MESSAGE value="Главная. Добавил canvas" />
     <MESSAGE value="Главная. canvas 1.1" />
     <MESSAGE value="Главная. canvas 1.2(Подправил спавн точек)" />
@@ -656,7 +654,9 @@
     <MESSAGE value="Главная. canvas 1.5.5(Попытка фикса мобильных)" />
     <MESSAGE value="Главная. canvas 1.5.6(Попытка фикса мобильных)" />
     <MESSAGE value="Главная. canvas 1.5.7(Попытка фикса мобильных)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Главная. canvas 1.5.7(Попытка фикса мобильных)" />
+    <MESSAGE value="Главная. canvas 1.5.8(Попытка фикса мобильных)" />
+    <MESSAGE value="Главная. canvas 1.5.9(уПопытка фикса мобильных)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Главная. canvas 1.5.9(уПопытка фикса мобильных)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -961,13 +961,6 @@
     <entry file="file://$PROJECT_DIR$/img/present.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="36" column="58" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -975,10 +968,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2688">
-          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        <state relative-caret-position="525">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#13;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -999,8 +999,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/crowdsale.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="68" column="61" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
+        <state relative-caret-position="410">
+          <caret line="62" column="40" lean-forward="true" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
         </state>
       </provider>
     </entry>
