@@ -19,7 +19,7 @@ function draw_all(dots = 90) {
             a.push(new Drawer(
                 two_rand(sheet.width - 3, 1), //coordinate by x
                 two_rand(sheet.height - 3, 1), //coordinate by y
-                2, 2, '#b3b8bc', //width, height, color
+                1, 1, '#b3b8bc', //width, height, color
                 none_zero(2), //x vector
                 none_zero(2), //y vector
             ));
@@ -62,8 +62,8 @@ function draw_all(dots = 90) {
                     //if the distance between dots is 100
                     //draw the line between this dots
                     context.beginPath();
-                    context.moveTo(a[k].x + 1, a[k].y + 1);
-                    context.lineTo(a[h].x + 1, a[h].y + 1);
+                    context.moveTo(a[k].x, a[k].y);
+                    context.lineTo(a[h].x, a[h].y);
                     context.lineWidth = 0.7;
                     let line_opacity = (100 - Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5)) / 100;
                     //opacity of line turn on the distance
