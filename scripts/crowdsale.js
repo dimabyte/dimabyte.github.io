@@ -40,7 +40,7 @@ function draw_all(dots = 90) {
 
     }
 
-    setInterval(move, 50);
+    setInterval(move, 40);
 
     function move() { //moving dots and drawing lines
         for (let i = 0; i < dots; i++) {
