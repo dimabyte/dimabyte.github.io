@@ -16,8 +16,8 @@ function kek(dots = 90) {
         sheet = new Drawer(0, 0, document.documentElement.clientWidth, $('.main').height(), '#dde3e9', 1, 1, 1);
         for (var i = 0; i < dots; i++) {
             a.push(new Drawer(
-                two_rand(sheet.width, -1),
-                two_rand(sheet.height, -1),
+                two_rand(sheet.width - 3, 1),
+                two_rand(sheet.height - 3, 1),
                 2, 2, '#b3b8bc',
                 none_zero(2),
                 none_zero(2),
@@ -45,10 +45,10 @@ function kek(dots = 90) {
         for (var i = 0; i < dots; i++) {
             a[i].x -= a[i].movex;
             a[i].y -= a[i].movey;
-            if (a[i].x < 0 || a[i].x > sheet.width - 2) {
+            if (a[i].x < 2 || a[i].x > sheet.width - 2) {
                 a[i].movex = -a[i].movex;
             }
-            if (a[i].y < 0 || a[i].y > sheet.height - 2) {
+            if (a[i].y < 2 || a[i].y > sheet.height - 2) {
                 a[i].movey = -a[i].movey;
             }
         }
