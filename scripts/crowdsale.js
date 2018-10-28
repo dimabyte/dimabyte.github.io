@@ -29,6 +29,7 @@ function draw_all(dots = 90) {
         canvas.width = sheet.width;
         canvas.height = sheet.height;
         context = canvas.getContext("2d");
+        setInterval(move, 50);
     }
 
     function draw() { //draw sheet with dots
@@ -39,8 +40,6 @@ function draw_all(dots = 90) {
 
 
     }
-
-    setInterval(move, 40);
 
     function move() { //moving dots and drawing lines
         for (let i = 0; i < dots; i++) {
