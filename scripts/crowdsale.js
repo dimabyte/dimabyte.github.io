@@ -19,7 +19,7 @@ function draw_all(dots = 90) {
             a.push(new Drawer(
                 two_rand(sheet.width - 3, 1), //coordinate by x
                 two_rand(sheet.height - 3, 1), //coordinate by y
-                2, 2, '#93999f', //width, height, color
+                2, 2, '#9ba4ac', //width, height, color
                 none_zero(2), //x vector
                 none_zero(2), //y vector
             ));
@@ -57,16 +57,16 @@ function draw_all(dots = 90) {
         for (let h = 0; h < j; h++) { //creating and drawing lines
             let k = j - 1;
             while (k !== h) {
-                if (Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5) < 50) {
+                if (Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5) < 100) {
                     //if the distance between dots is 100
                     //draw the line between this dots
                     context.beginPath();
                     context.moveTo(a[k].x + 1, a[k].y + 1);
                     context.lineTo(a[h].x + 1, a[h].y + 1);
-                    context.lineWidth = 0.1;
+                    context.lineWidth = 1;
                     let line_opacity = ((100 - Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5)) / 100);
                     //opacity of line turn on the distance
-                    context.strokeStyle = "hsla(210, 8%, 72%, " + line_opacity + ")";
+                    context.strokeStyle = "hsla(211, 13%, 50%, " + line_opacity + ")";
                     context.stroke();
                     context.closePath();
                 }
@@ -96,12 +96,17 @@ function draw_all(dots = 90) {
         canvas.width = sheet.width;
         canvas.height = sheet.height;
         if (document.documentElement.clientWidth < 1000) {
-            dots = 90
+            dots = 30
         } else {
             dots = 90
         }
     });
 
-    init(); //Constructor call
+    init();
+    if (document.documentElement.clientWidth < 1000) {
+        dots = 30
+    } else {
+        dots = 90
+    }//Constructor call
 }
 
