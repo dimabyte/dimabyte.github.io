@@ -89,17 +89,6 @@ function draw_all(dots = 90) {
         };
     }
 
-    $(window).on('resize', function () { //sheet size change
-        sheet.width = document.documentElement.clientWidth;
-        sheet.height = $('.main').height();
-        canvas.width = sheet.width;
-        canvas.height = sheet.height;
-        if (document.documentElement.clientWidth < 1000) {
-            dots = 90
-        } else {
-            dots = 90
-        }
-    });
     init(); //Constructor call
 }
 
