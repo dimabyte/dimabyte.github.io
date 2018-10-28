@@ -1,8 +1,8 @@
-const a = [];
-function two_rand(max, min) {
+const a = []; // container for dots
+function two_rand(max, min) { //return random number from [min;max)
     return Math.random() * (max - min) + min
 }
-function none_zero(max) {
+function none_zero(max) { // return random number from [-max;-1) or [1;max)
     if(Math.random() > 0.5){
         return Math.random() * (max - 1) + 1
     } else {
@@ -11,16 +11,17 @@ function none_zero(max) {
 }
 
 
-function kek(dots = 90) {
-    function init() {
+function draw_all(dots = 90) {
+    function init() { //class constructor
         sheet = new Drawer(0, 0, document.documentElement.clientWidth, $('.main').height(), '#dde3e9', 1, 1, 1);
-        for (var i = 0; i < dots; i++) {
+        //sheet with dots
+        for (let i = 0; i < dots; i++) { //creating dots
             a.push(new Drawer(
-                two_rand(sheet.width - 3, 1),
-                two_rand(sheet.height - 3, 1),
-                2, 2, '#b3b8bc',
-                none_zero(2),
-                none_zero(2),
+                two_rand(sheet.width - 3, 1), //coordinate by x
+                two_rand(sheet.height - 3, 1), //coordinate by y
+                2, 2, '#b3b8bc', //width, height, color
+                none_zero(2), //x vector
+                none_zero(2), //y vector
             ));
 
         }
@@ -30,7 +31,7 @@ function kek(dots = 90) {
         context = canvas.getContext("2d");
     }
 
-    function draw() {
+    function draw() { //draw sheet with dots
         sheet.draw();
         for (var c = 0; c < dots; c++) {
             a[c].draw();
@@ -41,29 +42,32 @@ function kek(dots = 90) {
 
     setInterval(move, 50);
 
-    function move() {
-        for (var i = 0; i < dots; i++) {
-            a[i].x -= a[i].movex;
-            a[i].y -= a[i].movey;
-            if (a[i].x < 2 || a[i].x > sheet.width - 2) {
-                a[i].movex = -a[i].movex;
+    function move() { //moving dots and drawing lines
+        for (let i = 0; i < dots; i++) {
+            a[i].x -= a[i].movex; //moves point along its x vector
+            a[i].y -= a[i].movey; //moves point along its y vector
+            if (a[i].x < 2 || a[i].x > sheet.width - 2) { //if the point was outside the sheet by x
+                a[i].movex = -a[i].movex; //change x vector
             }
-            if (a[i].y < 2 || a[i].y > sheet.height - 2) {
-                a[i].movey = -a[i].movey;
+            if (a[i].y < 2 || a[i].y > sheet.height - 2) { //if the point was outside the sheet by y
+                a[i].movey = -a[i].movey; //change y vector
             }
         }
         let j = dots;
         draw();
-        for (var h = 0; h < j; h++) {
+        for (let h = 0; h < j; h++) { //creating and drawing lines
             let k = j - 1;
             while (k !== h) {
                 if (Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5) < 100) {
+                    //if the distance between dots is 100
+                    //draw the line between this dots
                     context.beginPath();
                     context.moveTo(a[k].x + 1, a[k].y + 1);
                     context.lineTo(a[h].x + 1, a[h].y + 1);
-                    context.lineWidth = 1; // толщина линии
-                    let line_color = (100 - Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5)) / 100;
-                    context.strokeStyle = "hsla(210, 11%, 78%," + line_color + ")"; // цвет линии
+                    context.lineWidth = 1;
+                    let line_opacity = (100 - Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5)) / 100;
+                    //opacity of line turn on the distance
+                    context.strokeStyle = "hsla(210, 11%, 78%," + line_opacity + ")";
                     context.stroke();
                 }
                 k -= 1
@@ -72,37 +76,31 @@ function kek(dots = 90) {
 
     }
 
-    function Drawer(x, y, width, height, color, movex, movey) {
+    function Drawer(x, y, width, height, color, movex, movey) { //drawer of shapes
         this.width = width;
         this.height = height;
-        this.x = x;
-        this.y = y;
-        this.movex = movex;
-        this.movey = movey;
+        this.x = x; //coordinate by x
+        this.y = y; //coordinate bu y
+        this.movex = movex; //x vector
+        this.movey = movey; //y vector
         this.color = color;
-        this.draw = function () {
+        this.draw = function () { //draw the shape
             context.fillStyle = this.color;
             context.fillRect(this.x, this.y, this.width, this.height);
         };
     }
 
-    function check_dots() {
+    $(window).on('resize', function () { //sheet size change
+        sheet.width = document.documentElement.clientWidth;
+        sheet.height = $('.main').height();
+        canvas.width = sheet.width;
+        canvas.height = sheet.height;
         if (document.documentElement.clientWidth < 1000) {
             dots = 30
         } else {
             dots = 90
         }
-    }
-
-    function resize() {
-        sheet.width = document.documentElement.clientWidth;
-        sheet.height = $('.main').height();
-        canvas.width = sheet.width;
-        canvas.height = sheet.height;
-        check_dots()
-    }
-
-    $(window).on('resize', resize);
-    init();
+    });
+    init(); //Constructor call
 }
 
