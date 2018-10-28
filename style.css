@@ -851,6 +851,7 @@ h1, h2, h3, h4, h5, h6 {
 #crowd_canvas{
     position: absolute;
     overflow: hidden;
+    display: block;
 }
 .main_wrap{
     display: flex;
