@@ -4,9 +4,9 @@ function two_rand(max, min) { //return random number from [min;max)
 }
 function none_zero(max) { // return random number from [-max;-1) or [1;max)
     if(Math.random() > 0.5){
-        return Math.random() * (max - 1) + 1
+        return Math.random() * (max - 0.2) + 0.2
     } else {
-        return -(Math.random() * (max - 1) + 1)
+        return -(Math.random() * (max - 0.2) + 0.2)
     }
 }
 
@@ -20,8 +20,8 @@ function draw_all(dots = 90) {
                 two_rand(sheet.width - 3, 1), //coordinate by x
                 two_rand(sheet.height - 3, 1), //coordinate by y
                 2, 2, '#b3b8bc', //width, height, color
-                none_zero(2), //x vector
-                none_zero(2), //y vector
+                none_zero(0.3), //x vector
+                none_zero(0.3), //y vector
             ));
 
         }
@@ -40,7 +40,7 @@ function draw_all(dots = 90) {
 
     }
 
-    setInterval(move, 50);
+    setInterval(move, 10);
 
     function move() { //moving dots and drawing lines
         for (let i = 0; i < dots; i++) {
