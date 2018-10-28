@@ -40,7 +40,7 @@ function draw_all(dots = 90, across = 100, line_width = 1) {
 
     }
 
-    setInterval(move, 50);
+    setInterval(move, 45);
 
     function move() { //moving dots and drawing lines
         for (let i = 0; i < dots; i++) {
@@ -108,7 +108,7 @@ function draw_all(dots = 90, across = 100, line_width = 1) {
     init(); //Constructor call
     if (document.documentElement.clientWidth < 1000) {
         dots = 40;
-        across = 80;
+        across = 100;
         line_width = 0.3
 
     } else {
