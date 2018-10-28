@@ -13,7 +13,7 @@ function none_zero(max) { // return random number from [-max;-1) or [1;max)
 
 function draw_all(dots = 90) {
     function init() { //class constructor
-        sheet = new Drawer(0, 0, document.documentElement.clientWidth, $('.main').height(), '#dde3e9', 1, 1, 1);
+        sheet = new Drawer(0, 0, document.documentElement.clientWidth, $('.main').height(), 'white', 1, 1, 1);
         //sheet with dots
         for (let i = 0; i < dots; i++) { //creating dots
             a.push(new Drawer(
