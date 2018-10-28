@@ -11,7 +11,7 @@ function none_zero(max) { // return random number from [-max;-1) or (1;max)
 }
 
 
-function draw_all(dots = 10) {
+function draw_all(dots = 90) {
     function init() { //class constructor
         sheet = new Drawer(0, 0, 300, 400, '#dde3e9', 1, 1, 1);
         //sheet with dots
@@ -57,7 +57,7 @@ function draw_all(dots = 10) {
         for (let h = 0; h < j; h++) { //creating and drawing lines
             let k = j - 1;
             while (k !== h) {
-                if (Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5) < 100) {
+                if (Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5) < 50) {
                     //if the distance between dots is 100
                     //draw the line between this dots
                     context.beginPath();
@@ -95,9 +95,9 @@ function draw_all(dots = 10) {
         canvas.width = sheet.width;
         canvas.height = sheet.height;
         if (document.documentElement.clientWidth < 1000) {
-            dots = 10
+            dots = 90
         } else {
-            dots = 10
+            dots = 90
         }
     });
     init(); //Constructor call
