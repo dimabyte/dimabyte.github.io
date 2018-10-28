@@ -22,6 +22,7 @@ function draw_all(dots = 90) {
                 2, 2, '#9ba4ac', //width, height, color
                 none_zero(2), //x vector
                 none_zero(2), //y vector
+
             ));
 
         }
@@ -29,9 +30,8 @@ function draw_all(dots = 90) {
         canvas.width = sheet.width;
         canvas.height = sheet.height;
         context = canvas.getContext("2d");
-        setInterval(move, 50);
+        setInterval(move, 1000000);
     }
-
     function draw() { //draw sheet with dots
         sheet.draw();
         for (var c = 0; c < dots; c++) {
@@ -52,29 +52,9 @@ function draw_all(dots = 90) {
                 a[i].movey = -a[i].movey; //change y vector
             }
         }
-        let j = dots;
         draw();
-        for (let h = 0; h < j; h++) { //creating and drawing lines
-            let k = j - 1;
-            while (k !== h) {
-                if (Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5) < 100) {
-                    //if the distance between dots is 100
-                    //draw the line between this dots
-                    context.beginPath();
-                    context.moveTo(a[k].x + 1, a[k].y + 1);
-                    context.lineTo(a[h].x + 1, a[h].y + 1);
-                    context.lineWidth = 1;
-                    let line_opacity = ((100 - Math.pow(Math.pow(a[k].x - a[h].x, 2) + Math.pow(a[k].y - a[h].y, 2), 0.5)) / 100);
-                    //opacity of line turn on the distance
-                    context.strokeStyle = "hsla(211, 13%, 50%, " + line_opacity + ")";
-                    context.stroke();
-                    context.closePath();
-                }
-                k -= 1;
-            }
         }
 
-    }
 
     function Drawer(x, y, width, height, color, movex, movey) { //drawer of shapes
         this.width = width;
@@ -108,5 +88,15 @@ function draw_all(dots = 90) {
     } else {
         dots = 90
     }//Constructor call
+    setTimeout(function () {
+        context.beginPath();
+        context.moveTo(30, 20);
+        context.lineTo(150, 140);
+        context.lineTo(250, 30);
+        context.closePath();
+        context.strokeStyle = "red";
+        context.stroke();
+    }, 4000)
+
 }
 
