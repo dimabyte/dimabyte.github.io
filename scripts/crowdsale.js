@@ -101,8 +101,8 @@ function draw_all(dots = 90, across = 100, line_width = 1) {
         canvas.height = sheet.height;
         if (document.documentElement.clientWidth < 1000) {
             dots = 40;
-            across = 80;
-            line_width = 0.3
+            across = 100;
+            line_width = 1
         } else {
             dots = 90;
             across = 100;
