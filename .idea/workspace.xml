@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="116bd2ef-a583-4ede-bb00-750122eab5e0" name="Default" comment="">
+    <list default="true" id="116bd2ef-a583-4ede-bb00-750122eab5e0" name="Default" comment="Главная. Изменил сферу">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="236" lean-forward="true" selection-start-line="236" selection-end-line="236" />
+            <state relative-caret-position="100">
+              <caret line="220" column="28" lean-forward="true" selection-start-line="220" selection-start-column="28" selection-end-line="220" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#13;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -83,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="900" column="6" lean-forward="true" selection-start-line="900" selection-start-column="6" selection-end-line="900" selection-end-column="6" />
+            <state relative-caret-position="141">
+              <caret line="900" column="24" lean-forward="true" selection-start-line="900" selection-start-column="24" selection-end-line="900" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -169,8 +170,8 @@
         <option value="$PROJECT_DIR$/img/present.svg" />
         <option value="$PROJECT_DIR$/scripts/script.js" />
         <option value="$PROJECT_DIR$/scripts/crowdsale.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -184,8 +185,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2223" />
-    <option name="y" value="133" />
+    <option name="x" value="-169" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -272,14 +273,7 @@
       <workItem from="1540674459650" duration="595000" />
       <workItem from="1540721584827" duration="6548000" />
       <workItem from="1540729755519" duration="20940000" />
-      <workItem from="1540809036504" duration="8826000" />
-    </task>
-    <task id="LOCAL-00052" summary="Главная. Фикс меню">
-      <created>1540643413528</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1540643413530</updated>
+      <workItem from="1540809036504" duration="10223000" />
     </task>
     <task id="LOCAL-00053" summary="Главная. Фикс ховера у кнопки">
       <created>1540650188146</created>
@@ -617,14 +611,21 @@
       <option name="project" value="LOCAL" />
       <updated>1540821234490</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Главная. Изменил сферу">
+      <created>1540821518150</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1540821518150</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142979000" />
+    <option name="totallyTimeSpent" value="144376000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="133" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16354166" />
@@ -674,7 +675,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Главная. canvas 1.4.1(Ппытка фикса мобильных)" />
     <MESSAGE value="Главная. canvas 1.4.2(Ппытка фикса мобильных)" />
     <MESSAGE value="Главная. canvas 1.4.3(Ппытка фикса мобильных)" />
     <MESSAGE value="Главная. canvas 1.4.4(Ппытка фикса мобильных)" />
@@ -699,7 +699,8 @@
     <MESSAGE value="Главная. canvas 1.6.7(Попытка фикса мобильных)" />
     <MESSAGE value="Главная. canvas 1.6.8(Попытка фикса мобильных)" />
     <MESSAGE value="Главная. Добавил сферу" />
-    <option name="LAST_COMMIT_MESSAGE" value="Главная. Добавил сферу" />
+    <MESSAGE value="Главная. Изменил сферу" />
+    <option name="LAST_COMMIT_MESSAGE" value="Главная. Изменил сферу" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1018,10 +1019,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="900" column="24" lean-forward="true" selection-start-line="900" selection-start-column="24" selection-end-line="900" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="236" lean-forward="true" selection-start-line="236" selection-end-line="236" />
+        <state relative-caret-position="100">
+          <caret line="220" column="28" lean-forward="true" selection-start-line="220" selection-start-column="28" selection-end-line="220" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#13;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1079,13 +1087,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="900" column="6" lean-forward="true" selection-start-line="900" selection-start-column="6" selection-end-line="900" selection-end-column="6" />
         </state>
       </provider>
     </entry>

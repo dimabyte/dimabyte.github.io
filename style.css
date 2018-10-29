@@ -905,7 +905,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .shar > div {
     box-shadow: 0 0 1em -0.35em rgba(255, 255, 255, 0.2), 0 -1em 1.1em 0 rgba(169, 250, 223, 0.5) inset, 0 0 2.5em 0 rgba(0, 0, 0, 0.4) inset;
-    background: radial-gradient(circle at 50% -35%, rgba(255, 255, 255, 0.1) 45%, rgba(255, 255, 255, 0)), linear-gradient(180deg, #b3a5ea 10%, #88d0d5 28%, #4ad776 52%, #4cc68b 78%, #66a5a7 100%);
+    background: radial-gradient(circle at 50% -35%, rgba(255, 255, 255, 0.1) 45%, rgba(255, 255, 255, 0)), linear-gradient(180deg, #8897ff 12%, #3cc6d4 30%, #14d87d 52%, #00b97b 72%, #00afb5 100%);
     background-size: 150%, 100%, 100%, 100%;
     cursor: pointer;
     width: 20em;
