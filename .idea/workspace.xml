@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="116bd2ef-a583-4ede-bb00-750122eab5e0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
@@ -84,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="903" column="1" lean-forward="true" selection-start-line="903" selection-start-column="1" selection-end-line="903" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="900" column="6" lean-forward="true" selection-start-line="900" selection-start-column="6" selection-end-line="900" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -170,8 +169,8 @@
         <option value="$PROJECT_DIR$/img/present.svg" />
         <option value="$PROJECT_DIR$/scripts/script.js" />
         <option value="$PROJECT_DIR$/scripts/crowdsale.js" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -273,14 +272,7 @@
       <workItem from="1540674459650" duration="595000" />
       <workItem from="1540721584827" duration="6548000" />
       <workItem from="1540729755519" duration="20940000" />
-      <workItem from="1540809036504" duration="8551000" />
-    </task>
-    <task id="LOCAL-00051" summary="Главная. недоменю">
-      <created>1540600288717</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1540600288717</updated>
+      <workItem from="1540809036504" duration="8826000" />
     </task>
     <task id="LOCAL-00052" summary="Главная. Фикс меню">
       <created>1540643413528</created>
@@ -618,11 +610,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540756865086</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Главная. Добавил сферу">
+      <created>1540821234488</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1540821234490</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142704000" />
+    <option name="totallyTimeSpent" value="142979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="133" width="1936" height="1056" extended-state="6" />
@@ -675,7 +674,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Главная. canvas 1.4(Ппытка фикса мобильных)" />
     <MESSAGE value="Главная. canvas 1.4.1(Ппытка фикса мобильных)" />
     <MESSAGE value="Главная. canvas 1.4.2(Ппытка фикса мобильных)" />
     <MESSAGE value="Главная. canvas 1.4.3(Ппытка фикса мобильных)" />
@@ -700,7 +698,8 @@
     <MESSAGE value="Главная. canvas 1.6.6(Попытка фикса мобильных)" />
     <MESSAGE value="Главная. canvas 1.6.7(Попытка фикса мобильных)" />
     <MESSAGE value="Главная. canvas 1.6.8(Попытка фикса мобильных)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Главная. canvas 1.6.8(Попытка фикса мобильных)" />
+    <MESSAGE value="Главная. Добавил сферу" />
+    <option name="LAST_COMMIT_MESSAGE" value="Главная. Добавил сферу" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1019,13 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="903" column="1" lean-forward="true" selection-start-line="903" selection-start-column="1" selection-end-line="903" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1087,6 +1079,13 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="900" column="6" lean-forward="true" selection-start-line="900" selection-start-column="6" selection-end-line="900" selection-end-column="6" />
         </state>
       </provider>
     </entry>
