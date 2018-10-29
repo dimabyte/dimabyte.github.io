@@ -32,7 +32,7 @@ function draw_all(dots = 90, across = 100, line_width = 1) {
     }
 
     function draw() { //draw sheet with dots
-        sheet.draw();
+        context.clearRect(0, 0, canvas.width, canvas.height);
         for (var c = 0; c < dots; c++) {
             a[c].draw();
         }
@@ -85,6 +85,10 @@ function draw_all(dots = 90, across = 100, line_width = 1) {
         this.movey = movey; //y vector
         this.color = color;
         this.draw = function () { //draw the shape
+            context.fillStyle = this.color;
+            context.fillRect(this.x, this.y, this.width, this.height);
+        };
+        this.cdraw = function () { //draw the shape
             context.fillStyle = this.color;
             context.fillRect(this.x, this.y, this.width, this.height);
         };
