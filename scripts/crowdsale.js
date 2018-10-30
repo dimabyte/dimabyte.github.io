@@ -25,14 +25,14 @@ function draw_all(dots = 90, across = 100, line_width = 1) {
             ));
 
         }
-        canvas = document.getElementById("crowd_canvas");
-        canvas.width = sheet.width;
-        canvas.height = sheet.height;
-        context = canvas.getContext("2d");
+        canlol = document.getElementById("crowd_canvas");
+        canlol.width = sheet.width;
+        canlol.height = sheet.height;
+        context = canlol.getContext("2d");
     }
 
     function draw() { //draw sheet with dots
-        context.clearRect(0, 0, canvas.width, canvas.height);
+        context.clearRect(0, 0, canlol.width, canlol.height);
         for (var c = 0; c < dots; c++) {
             a[c].draw();
         }
@@ -97,12 +97,12 @@ function draw_all(dots = 90, across = 100, line_width = 1) {
     $(window).on('resize', function () { //sheet size change
         sheet.width = document.documentElement.clientWidth;
         sheet.height = $('.main').height();
-        canvas.width = sheet.width;
-        canvas.height = sheet.height;
+        canlol.width = sheet.width;
+        canlol.height = sheet.height;
         if (document.documentElement.clientWidth < 1000) {
             dots = 40;
-            across = 100;
-            line_width = 1
+            across = 80;
+            line_width = 0.3
         } else {
             dots = 90;
             across = 100;

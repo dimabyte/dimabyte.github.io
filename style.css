@@ -913,6 +913,11 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50%;
 
 }
+#pong{
+    position: relative;
+    bottom: 300px;
+    z-index: 10000;
+}
 @keyframes down_we_go_1 {
     0%{
         opacity:0;
