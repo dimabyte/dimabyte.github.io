@@ -918,6 +918,19 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 325px;
     z-index: 10000;
 }
+.ten{
+    width: 20px;
+    height: 50px;
+    background: #acb1b6;
+    border: 3px;
+    position: relative;
+    border-radius: 50%;
+    bottom: 300px;
+    left: 47%;
+    transform: rotate3d(1, 0, 0, 80deg);
+    -webkit-box-shadow: 0 0 25px 16px #acb1b6;
+    box-shadow: 0 0 90px 50px #acb1b6;
+}
 @keyframes down_we_go_1 {
     0%{
         opacity:0;

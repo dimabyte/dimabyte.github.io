@@ -88,10 +88,6 @@ function draw_all(dots = 90, across = 100, line_width = 1) {
             context.fillStyle = this.color;
             context.fillRect(this.x, this.y, this.width, this.height);
         };
-        this.cdraw = function () { //draw the shape
-            context.fillStyle = this.color;
-            context.fillRect(this.x, this.y, this.width, this.height);
-        };
     }
 
     $(window).on('resize', function () { //sheet size change
