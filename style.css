@@ -3104,10 +3104,10 @@ footer{
         position: relative;
     }
     .Global > .underline{
-         left: 20px;
+         left: 16px;
     }
     .Tech > .underline{
-        right: 20px;
+        right: 15px;
     }
     /* //news// */
 }
@@ -3168,7 +3168,7 @@ footer{
     }
     .Collected >p:nth-child(4) {
             font-size: 15px;
-            left: -36px;
+            left: -36px;.
             position: relative;
     }
     .Collected >p:nth-child(6)::after {

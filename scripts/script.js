@@ -306,8 +306,8 @@ $(function() {
             $('.news_btn').css('transition', '0s');
             $(this).addClass('active_big_btn');
             $('.news_btn').removeClass('active_big_btn');
-            $('.Meaning').addClass('active_little');
-            $('.About').removeClass('active_little');
+            $('.Meaning').removeClass('active_little');
+            $('.About').addClass('active_little');
             $('.Tech').removeClass('active_little');
             $('.Global').removeClass('active_little');
             setTimeout(function () {
@@ -420,7 +420,7 @@ $(function() {
                 $('.About > .underline').css('opacity', '0').css('width', '0').css('min-width', '0');
                 setTimeout(function () {
                     if ($(window).width() <= '998') {
-                        $('.Global > .underline').css('width', '30%').css('min-width', '120px');
+                        $('.Global > .underline').css('width', '95px');
                     } else {
                         $('.Global > .underline').css('width', '90%');
                     }
@@ -433,7 +433,7 @@ $(function() {
                 $('.About > .underline').css('opacity', '0').css('width', '0').css('min-width', '0');
                 setTimeout(function () {
                     if ($(window).width() <= '998') {
-                        $('.Tech > .underline').css('width', '30%').css('min-width', '120px');
+                        $('.Tech > .underline').css('width', '100px');
                     } else {
                         $('.Tech > .underline').css('width', '90%');
                     }
@@ -446,7 +446,7 @@ $(function() {
                 $('.About > .underline').css('opacity', '0').css('width', '0').css('min-width', '0');
                 setTimeout(function () {
                     if ($(window).width() <= '998') {
-                        $('.Meaning > .underline').css('width', '30%').css('min-width', '120px');
+                        $('.Meaning > .underline').css('width', '150px');
                     } else {
                         $('.Meaning > .underline').css('width', '90%');
                     }
@@ -459,7 +459,7 @@ $(function() {
                 $('.Meaning > .underline').css('opacity', '0').css('width', '0').css('min-width', '0');
                 setTimeout(function () {
                     if ($(window).width() <= '998') {
-                        $('.About > .underline').css('width', '30%').css('min-width', '120px');
+                        $('.About > .underline').css('width', '130px');
                     } else {
                         $('.About > .underline').css('width', '90%');
                     }
@@ -474,9 +474,9 @@ $(function() {
                 } else{
 
                     if ($(window).width() <= '1018') {
-                        $('.Global > .underline').css('width', '20%').css('min-width', '40px').css('opacity', '1');
+                        $('.Global > .underline').css('width', '95px').css('opacity', '1');
                     } else {
-                        $('.Global > .underline').css('width', '30%').css('opacity', '1');
+                        $('.Global > .underline').css('width', '90%').css('opacity', '1');
                     }
 
                 }
