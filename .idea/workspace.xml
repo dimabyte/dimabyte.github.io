@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="116bd2ef-a583-4ede-bb00-750122eab5e0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/img/crowd_bon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/crowd_el.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/sphere.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/sphere.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -98,8 +94,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="2682" column="19" selection-start-line="2682" selection-start-column="19" selection-end-line="2682" selection-end-column="19" />
+            <state relative-caret-position="304">
+              <caret line="3174" column="33" selection-start-line="3174" selection-start-column="33" selection-end-line="3174" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -288,14 +284,7 @@
       <workItem from="1540809036504" duration="21266000" />
       <workItem from="1540850955747" duration="786000" />
       <workItem from="1540905504649" duration="23716000" />
-      <workItem from="1540983770604" duration="10024000" />
-    </task>
-    <task id="LOCAL-00059" summary="Главная. canvas 1.4(Пофиксил четокть линий?)">
-      <created>1540739431911</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1540739431911</updated>
+      <workItem from="1540983770604" duration="12061000" />
     </task>
     <task id="LOCAL-00060" summary="Главная. canvas 1.4(Пофиксил четокть линий чек)">
       <created>1540739522045</created>
@@ -633,11 +622,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540930034040</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="Главная. Фикс сферы и градиента">
+      <created>1540999132826</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1540999132827</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189945000" />
+    <option name="totallyTimeSpent" value="191982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1086,8 +1082,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="2682" column="19" selection-start-line="2682" selection-start-column="19" selection-end-line="2682" selection-end-column="19" />
+        <state relative-caret-position="304">
+          <caret line="3174" column="33" selection-start-line="3174" selection-start-column="33" selection-end-line="3174" selection-end-column="33" />
         </state>
       </provider>
     </entry>
