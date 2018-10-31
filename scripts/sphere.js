@@ -62,9 +62,9 @@ function drawe_all() {
             let k = j - 1;
             context_sphere.globalAlpha = 1;
             while (k !== h) {
-                if (Math.pow(Math.pow(sphere_dots[k].x - sphere_dots[h].x, 2) + Math.pow(sphere_dots[k].y - sphere_dots[h].y, 2), 0.5) <= 102
+                if (Math.pow(Math.pow(sphere_dots[k].x - sphere_dots[h].x, 2) + Math.pow(sphere_dots[k].y - sphere_dots[h].y, 2), 0.5) <= 100
                  ) {
-                    if (sphere_dots[k].parity === 0 && sphere_dots[h].parity === 0 && Math.pow(Math.pow(sphere_dots[k].x - sphere_dots[h].x, 2) + Math.pow(sphere_dots[k].y - sphere_dots[h].y, 2), 0.5) > 100) {
+                    if (sphere_dots[k].parity === 0 && sphere_dots[h].parity === 0 && Math.pow(Math.pow(sphere_dots[k].x - sphere_dots[h].x, 2) + Math.pow(sphere_dots[k].y - sphere_dots[h].y, 2), 0.5) > 99) {
                         sphere_dots[k].parity = sphere_dots[h];
                         sphere_dots[h].parity = sphere_dots[k];
                     }
@@ -78,7 +78,6 @@ function drawe_all() {
                         }
                         //opacity of line turn on the distance
                         context_sphere.strokeStyle = "hsla(0, 100%, 100%," +  line_opacity + ")";
-                        console.log(line_opacity);
                         context_sphere.stroke();
                     }
                 } else {
