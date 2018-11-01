@@ -138,7 +138,7 @@
       <find>caross</find>
       <find>across</find>
       <find>line_w</find>
-      <find>context_sphere.globalAlpha = 1;</find>
+      <find />
       <find>log</find>
       <find>wrap_ma</find>
       <find>can</find>
@@ -188,7 +188,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="455" />
     <option name="y" value="-9" />
     <option name="width" value="1936" />
