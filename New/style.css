@@ -711,6 +711,26 @@ h1, h2, h3, h4, h5, h6 {
 .buy_btn span{
     font-family: "Roboto Bold", sans-serif;
 }
+.buy_btn::after {
+    content: url('img/buy_present.svg');
+    position: relative;
+    left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy_btn::before {
+    content: '+';
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: "Roboto Regular", sans-serif;
+    color: #adacac;
+    left: 34px;
+    bottom: 1px;
+}
 #down_line{
     size: 1px;
     color: #dcdcdc;
@@ -762,11 +782,11 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 .two_news{
-    margin-top: 36px;
+    margin-top: 6px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .two_news img{
     max-width: none;
@@ -776,6 +796,7 @@ h1, h2, h3, h4, h5, h6 {
     background: white;
     display: flex;
     height: 145px;
+    margin-top: 30px;
 }
 .more_photo{
     background-position: center center;
@@ -1328,7 +1349,13 @@ footer{
 
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1028px) {
+
+
+
+    .two_news{
+        flex-wrap: nowrap;
+    }
 
 
     .down_links{
@@ -1377,6 +1404,7 @@ footer{
     .body_close{
         overflow: hidden;
     }
+
 
 
 
