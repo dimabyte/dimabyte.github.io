@@ -37,11 +37,18 @@ $.afterlag(function() {
                 $(this).toggleClass('active_img');
                 $('#end').toggleClass('close');
                 $('body').toggleClass('body_close');
+                if($('meta[content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"]').length === 1){
+                    $('meta[name="viewport"]').remove();
+                    $('head').append('<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=100,user-scalable=yes">');
+                } else{
+                    $('meta[name="viewport"]').remove();
+                    $('head').append('<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">');
+
+                }
             }
 
 
         });
-        $('meta[name="viewport"]').remove();
 
 
 
