@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Эллипс_2_1_);}
+	.st1{fill:none;enable-background:new    ;}
+	.st2{fill:#FFFFFF;}
+</style>
+<linearGradient id="Эллипс_2_1_" gradientUnits="userSpaceOnUse" x1="2.9289" y1="2.9289" x2="17.0711" y2="17.0711">
+	<stop  offset="0" style="stop-color:#1C0D85"/>
+	<stop  offset="1" style="stop-color:#73148F"/>
+</linearGradient>
+<circle id="Эллипс_2" class="st0" cx="10" cy="10" r="10"/>
+<path class="st1" d="z"/>
+<g>
+	<path class="st2" d="M10,10.7c2.6,0,4.8,1.4,6,3.5C13.4,14.2,11.2,12.8,10,10.7z"/>
+	<path class="st2" d="M10,3.8c0.6,1,0.9,2.2,0.9,3.5s-0.3,2.4-0.9,3.5c-0.6-1-0.9-2.2-0.9-3.5S9.4,4.8,10,3.8z"/>
+	<path class="st2" d="M10,10.7c-1.2,2.1-3.4,3.5-6,3.5C5.2,12.1,7.4,10.7,10,10.7z"/>
+</g>
+</svg>
