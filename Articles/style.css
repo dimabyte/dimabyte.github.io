@@ -120,20 +120,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 #menu a{
     text-transform: uppercase;
-    color: #545454;
+    color: white;
     font-size: 13px;
     margin-left: 40px;
     font-family: "Roboto Medium", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 }
 #menu a::after{
     content: '';
     width: 0;
     top: 17px;
     height: 1px;
-    background: #545454;
+    background: white;
     transition: 0.2s;
     position: absolute;
     display: block;
@@ -206,6 +207,7 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-position: center center;
     width: 45px;
+    z-index: 1;
     height: 45px;
 }
 .desk_logo{
@@ -217,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 18.6%;
 }
 .desk_logo h1{
-    color: #545454;
+    color: white;
     margin-left: 10px;
     font-size: 17px;
     line-height: 45px;
@@ -225,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 1px;
 }
 .logo h1{
-    color: #545454;
+    color: white;
     margin-left: 10px;
     font-size: 17px;
     line-height: 45px;

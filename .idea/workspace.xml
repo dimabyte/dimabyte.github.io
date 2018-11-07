@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="116bd2ef-a583-4ede-bb00-750122eab5e0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Articles/img/Post_Admin_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Articles/img/Post_Comment.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Articles/img/Post_Eye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Articles/img/Post_Show_more.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Articles/img/Post_Time.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Articles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Articles/img/Logo_news.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Articles/img/Logo_news.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Articles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Articles/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -48,17 +43,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Articles/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="1601">
+              <caret line="279" column="34" lean-forward="true" selection-start-line="279" selection-start-column="34" selection-end-line="279" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,20 +60,30 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Articles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="824">
-              <caret line="1269" column="18" selection-start-line="1269" selection-start-column="18" selection-end-line="1269" selection-end-column="18" />
+            <state relative-caret-position="328">
+              <caret line="187" column="1" lean-forward="true" selection-start-line="187" selection-start-column="1" selection-end-line="187" selection-end-column="1" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logo_news.svg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Articles/img/Logo_news.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="Logo.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Articles/img/Logo.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="786" column="14" lean-forward="true" selection-start-line="504" selection-start-column="8" selection-end-line="786" selection-end-column="14" />
+            <state relative-caret-position="824">
+              <caret line="778" column="26" lean-forward="true" selection-start-line="644" selection-start-column="8" selection-end-line="778" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -153,9 +154,9 @@
       <find>first_n</find>
       <find>two</find>
       <find>Global</find>
-      <find>tech</find>
-      <find>tec</find>
       <find>article</find>
+      <find>tec</find>
+      <find>tech</find>
     </findStrings>
     <replaceStrings>
       <replace>Meaning</replace>
@@ -188,6 +189,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Articles/index.html" />
         <option value="$PROJECT_DIR$/Articles/style.css" />
+        <option value="$PROJECT_DIR$/Articles/img/Logo_news.svg" />
       </list>
     </option>
   </component>
@@ -226,6 +228,12 @@
               <item name="dimabyte.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="dimabyte.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="Articles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dimabyte.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dimabyte.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="Articles" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,21 +322,7 @@
       <workItem from="1541418235291" duration="172000" />
       <workItem from="1541440953089" duration="2238000" />
       <workItem from="1541506606815" duration="11298000" />
-      <workItem from="1541595092761" duration="5116000" />
-    </task>
-    <task id="LOCAL-00066" summary="Главная. canvas 1.4.5(Попытка фикса мобильных)">
-      <created>1540742666122</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1540742666122</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Главная. canvas 1.4.6(Попытка фикса мобильных)">
-      <created>1540742765034</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1540742765034</updated>
+      <workItem from="1541595092761" duration="7447000" />
     </task>
     <task id="LOCAL-00068" summary="Главная. canvas 1.4.7(Попытка фикса мобильных)">
       <created>1540743216378</created>
@@ -659,11 +653,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541528126494</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="Новости. Добавил глобальные и технические">
+      <created>1541601451712</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1541601451715</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Новости. Убрал лишнее">
+      <created>1541602123753</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1541602123753</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253283000" />
+    <option name="totallyTimeSpent" value="255614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="133" width="1936" height="1056" extended-state="6" />
@@ -716,8 +724,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Главная. canvas 1.5.2(Попытка фикса мобильных)" />
-    <MESSAGE value="Главная. canvas 1.5.3(Попытка фикса мобильных)" />
     <MESSAGE value="Главная. canvas 1.5.4(Попытка фикса мобильных)" />
     <MESSAGE value="Главная. canvas 1.5.5(Попытка фикса мобильных)" />
     <MESSAGE value="Главная. canvas 1.5.6(Попытка фикса мобильных)" />
@@ -741,7 +747,9 @@
     <MESSAGE value="Статья. чек фото на моб" />
     <MESSAGE value="Статья. Фикс доп новостей + микрофиксы" />
     <MESSAGE value="Новости. Фикс доп новостей + микрофиксы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Новости. Фикс доп новостей + микрофиксы" />
+    <MESSAGE value="Новости. Добавил глобальные и технические" />
+    <MESSAGE value="Новости. Убрал лишнее" />
+    <option name="LAST_COMMIT_MESSAGE" value="Новости. Убрал лишнее" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -749,20 +757,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/New/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="847" column="28" lean-forward="true" selection-start-line="847" selection-start-column="28" selection-end-line="847" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/New/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/New/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -1006,10 +1000,17 @@
     <entry file="file://$PROJECT_DIR$/Articles/img/Post_Admin_icon.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="2894" column="18" lean-forward="true" selection-start-line="2757" selection-start-column="4" selection-end-line="2894" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="786" column="14" lean-forward="true" selection-start-line="504" selection-start-column="8" selection-end-line="786" selection-end-column="14" />
+        <state relative-caret-position="824">
+          <caret line="778" column="26" lean-forward="true" selection-start-line="644" selection-start-column="8" selection-end-line="778" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1025,34 +1026,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Articles/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="1601">
+          <caret line="279" column="34" lean-forward="true" selection-start-line="279" selection-start-column="34" selection-end-line="279" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="2894" column="18" lean-forward="true" selection-start-line="2757" selection-start-column="4" selection-end-line="2894" selection-end-column="18" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Articles/img/Logo.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Articles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
-          <caret line="1269" column="18" selection-start-line="1269" selection-start-column="18" selection-end-line="1269" selection-end-column="18" />
+        <state relative-caret-position="328">
+          <caret line="187" column="1" lean-forward="true" selection-start-line="187" selection-start-column="1" selection-end-line="187" selection-end-column="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Articles/img/Logo_news.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
