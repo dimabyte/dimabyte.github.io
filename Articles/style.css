@@ -494,6 +494,8 @@ main{
 .news_wrapper{
     margin: 103px 0 0 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .news{
     display: flex;
@@ -1141,9 +1143,6 @@ footer{
         margin-top: 20px;
         margin-left: 0;
     }
-    .little_btns h4 > span{
-        display: none;
-    }
     .news_btn{
         margin-left: 3px;
     }
@@ -1154,11 +1153,8 @@ footer{
         width: 100%;
         max-width: 500px;
     }
-    .watch{
+    .watch {
         width: 50px;
-    }
-    .big_btns{
-        height: 47px;
     }
     .more_news{
         margin-bottom: 40px;
@@ -1175,20 +1171,7 @@ footer{
         padding-bottom: 31px;
         width: 90%;
     }
-    .big_btns h3{
-        font-size: 18px;
-    }
-    .little_btns{
-        margin-top: 22px;
-        margin-bottom: -22px;
-        font-size: 16px;
-    }
-    .little_btns h4{
-        margin-bottom: -10px;
-    }
-    .line_btn{
-        width: 85%;
-    }
+
     .article{
         margin-top: 14px;
     }
@@ -1224,13 +1207,8 @@ footer{
         padding: 10px 9px 10px 9px;
     }
     .Global_news{
-        padding-top: 25px;
-    }
-    .About_news{
-        padding-top: 25px;
-    }
-    .Meaning_news{
-        padding-top: 25px;
+        padding-top: 0;
+        margin-top: -90px;
     }
     .tech_article{
         padding: 40px 0 10px 0;
@@ -1268,6 +1246,9 @@ footer{
 
     .info{
         padding-bottom: 10px;
+    }
+    .wrapper{
+        padding-bottom: 100px;
     }
     /* //news// */
 
@@ -1430,6 +1411,15 @@ footer{
 
 
 }
+@media screen and (max-width: 580px) {
+    .selector p{
+        font-size: 17px;
+    }
+    .selectors{
+        width: 90%;
+    }
+
+}
 @media screen and (max-width: 492px) {
 
     .Tech h4{
@@ -1463,6 +1453,26 @@ footer{
 
 
 
+
+
+}
+@media screen and (max-width: 450px) {
+    .selector p{
+        font-size: 14px;
+    }
+    .selector{
+        width: 46%;
+    }
+    .selectors{
+        width: 90%;
+    }
+    .selector::after {
+        top: 16px;
+        height: 1px;
+    }
+    .selectors{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 370px) {
@@ -1478,6 +1488,9 @@ footer{
         width: 90%;
     }
     /* //footer// */
+    .selector p{
+        font-size: 13px;
+    }
 
 
 
