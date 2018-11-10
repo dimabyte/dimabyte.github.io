@@ -552,11 +552,11 @@ h1, h2, h3, h4, h5, h6 {
     content: 'Подпись';
     position: relative;
     display: block;
-    left: 50%;
     font-family: "Roboto Italic", sans-serif;
     font-size: 14px;
     color: #848484;
-    width: 50px;
+    width: 100%;
+    text-align: center;
 }
 .main_article p{
     max-width: 100%;
@@ -696,6 +696,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .buy_btn{
     display: flex;
+    position: relative;
+    left: -7px;
 }
 .buy_btn img{
     height: 22px;
@@ -947,7 +949,11 @@ h1, h2, h3, h4, h5, h6 {
      flex-direction: column;
      justify-content: center;
      align-items: center;
+    margin-bottom: 24px;
  }
+.inner_comment{
+    width: 86%;
+}
 .comment_info{
     display: flex;
     justify-content: center;
@@ -1206,6 +1212,9 @@ footer{
     line-height: 45px;
     font-family: 'Roboto Bold', sans-serif;
     letter-spacing: 0.4px;
+}
+.logo_footer > .logotip{
+    background-image: url("img/Logo_footer.svg");
 }
 .social_fot svg{
     width: 23px;

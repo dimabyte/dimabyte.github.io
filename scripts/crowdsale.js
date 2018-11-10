@@ -19,7 +19,7 @@ function draw_all(dots = 90, across = 100, line_width = 1) {
             a.push(new Drawer(
                 two_rand(sheet.width - 3, 1), //coordinate by x
                 two_rand(sheet.height - 3, 1), //coordinate by y
-                1, 1, '#b3b8bc', //width, height, color
+                1, 1, '#898f95', //width, height, color
                 none_zero(2), //x vector
                 none_zero(2), //y vector
             ));
@@ -33,7 +33,7 @@ function draw_all(dots = 90, across = 100, line_width = 1) {
 
     function draw() { //draw sheet with dots
         context.clearRect(0, 0, canvas.width, canvas.height);
-        for (var c = 0; c < dots; c++) {
+        for (let c = 0; c < dots; c++) {
             a[c].draw();
         }
 

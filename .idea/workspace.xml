@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Articles/scripts/Header_script.js" line="130" />
+    <bookmark url="file://$PROJECT_DIR$/Articles/scripts/Header_script.js" line="159" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="116bd2ef-a583-4ede-bb00-750122eab5e0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Articles/img/Logo_footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New/img/Logo_footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Logo_footer.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Articles/img/Logo_news.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Articles/img/Logo_news.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Articles/img/Header_Search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Articles/img/Header_Search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Articles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Articles/scripts/Header_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Articles/scripts/Header_script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Articles/scripts/after_lag.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Articles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Articles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/New/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New/scripts/after_lag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/New/scripts/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/New/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/down-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/after_lag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/crowdsale.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/crowdsale.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,71 +35,76 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/style.css">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="278">
-                    <caret line="2894" column="18" lean-forward="true" selection-start-line="2757" selection-start-column="4" selection-end-line="2894" selection-end-column="18" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Articles/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1601">
-              <caret line="279" column="34" lean-forward="true" selection-start-line="279" selection-start-column="34" selection-end-line="279" selection-end-column="34" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="141">
+              <caret line="57" column="22" lean-forward="true" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Post_Admin_icon.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Articles/img/Post_Admin_icon.svg">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/New/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="669">
+              <caret line="224" column="49" selection-start-line="224" selection-start-column="49" selection-end-line="224" selection-end-column="49" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Articles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="187" column="1" lean-forward="true" selection-start-line="187" selection-start-column="1" selection-end-line="187" selection-end-column="1" />
+            <state relative-caret-position="194">
+              <caret line="632" column="1" lean-forward="true" selection-start-line="632" selection-start-column="1" selection-end-line="632" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Logo_news.svg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Articles/img/Logo_news.svg">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/New/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="951" column="23" selection-start-line="951" selection-start-column="23" selection-end-line="951" selection-end-column="23" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="Logo.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Articles/img/Logo.svg">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="1762" column="11" lean-forward="true" selection-start-line="1762" selection-start-column="11" selection-end-line="1762" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header_script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Articles/scripts/Header_script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="599">
+              <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="658" column="49" selection-start-line="658" selection-start-column="49" selection-end-line="658" selection-end-column="56" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="824">
-              <caret line="778" column="26" lean-forward="true" selection-start-line="644" selection-start-column="8" selection-end-line="778" selection-end-column="26" />
+            <state relative-caret-position="-570">
+              <caret line="936" column="6" lean-forward="true" selection-start-line="936" selection-start-column="6" selection-end-line="936" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -98,22 +119,9 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Header_script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Articles/scripts/Header_script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="130" selection-start-line="130" selection-end-line="130" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Articles/scripts/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
+      <file leaf-file-name="Header_Search.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Articles/img/Header_Search.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -127,20 +135,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>context</find>
-      <find>canvas</find>
-      <find>cankek</find>
-      <find>caross</find>
-      <find>across</find>
-      <find>line_w</find>
-      <find />
-      <find>log</find>
       <find>wrap_ma</find>
       <find>can</find>
       <find>buy_</find>
       <find>under</find>
       <find>logo</find>
-      <find>footer</find>
       <find>soc</find>
       <find>c</find>
       <find>comments_wrap</find>
@@ -157,6 +156,15 @@
       <find>article</find>
       <find>tec</find>
       <find>tech</find>
+      <find>about</find>
+      <find>index</find>
+      <find>footer</find>
+      <find>arti</find>
+      <find>article:h</find>
+      <find>article:ho</find>
+      <find>wat</find>
+      <find>commen</find>
+      <find>last_te</find>
     </findStrings>
     <replaceStrings>
       <replace>Meaning</replace>
@@ -175,21 +183,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/img/present.svg" />
-        <option value="$PROJECT_DIR$/scripts/crowdsale.js" />
         <option value="$PROJECT_DIR$/scripts/sphere.js" />
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/scripts/script.js" />
         <option value="$PROJECT_DIR$/New/img/Header_Search.svg" />
-        <option value="$PROJECT_DIR$/New/scripts/script.js" />
         <option value="$PROJECT_DIR$/New/img/footer_Present.svg" />
-        <option value="$PROJECT_DIR$/New/index.html" />
-        <option value="$PROJECT_DIR$/New/style.css" />
-        <option value="$PROJECT_DIR$/Articles/scripts/Header_script.js" />
         <option value="$PROJECT_DIR$/Articles/scripts/script.js" />
+        <option value="$PROJECT_DIR$/Articles/img/Logo_news.svg" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Articles/index.html" />
+        <option value="$PROJECT_DIR$/scripts/crowdsale.js" />
+        <option value="$PROJECT_DIR$/New/scripts/script.js" />
+        <option value="$PROJECT_DIR$/Articles/img/Header_Search.svg" />
+        <option value="$PROJECT_DIR$/scripts/script.js" />
+        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/Articles/style.css" />
-        <option value="$PROJECT_DIR$/Articles/img/Logo_news.svg" />
+        <option value="$PROJECT_DIR$/Articles/scripts/Header_script.js" />
+        <option value="$PROJECT_DIR$/New/index.html" />
+        <option value="$PROJECT_DIR$/New/style.css" />
       </list>
     </option>
   </component>
@@ -203,8 +212,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1838" />
-    <option name="y" value="121" />
+    <option name="x" value="-435" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -232,8 +241,12 @@
             <path>
               <item name="dimabyte.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="dimabyte.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="Articles" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="New" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dimabyte.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dimabyte.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -243,23 +256,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/canvas" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Holod\WebstormProjects\dimabyte.github.io\New\img" />
+      <recent name="C:\Users\Holod\WebstormProjects\dimabyte.github.io\Articles\img" />
+      <recent name="C:\Users\Holod\WebstormProjects\dimabyte.github.io\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Holod\WebstormProjects\dimabyte.github.io\Articles\img" />
+      <recent name="C:\Users\Holod\WebstormProjects\dimabyte.github.io\img" />
       <recent name="C:\Users\Holod\WebstormProjects\dimabyte.github.io\New\img" />
       <recent name="C:\Users\Holod\WebstormProjects\dimabyte.github.io\New\fonts" />
-      <recent name="C:\Users\Holod\WebstormProjects\dimabyte.github.io\img" />
       <recent name="C:\Users\Holod\WebstormProjects\dimabyte.github.io\scripts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Holod\WebstormProjects\dimabyte.github.io\Articles\img" />
-      <recent name="C:\Users\Holod\WebstormProjects\dimabyte.github.io\New\img" />
-      <recent name="C:\Users\Holod\WebstormProjects\dimabyte.github.io\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -323,6 +336,8 @@
       <workItem from="1541440953089" duration="2238000" />
       <workItem from="1541506606815" duration="11298000" />
       <workItem from="1541595092761" duration="7447000" />
+      <workItem from="1541619676443" duration="1567000" />
+      <workItem from="1541796942195" duration="14589000" />
     </task>
     <task id="LOCAL-00068" summary="Главная. canvas 1.4.7(Попытка фикса мобильных)">
       <created>1540743216378</created>
@@ -671,16 +686,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255614000" />
+    <option name="totallyTimeSpent" value="271770000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="133" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16354166" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -694,23 +710,22 @@
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16354166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32943678" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -757,27 +772,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/New/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="10" lean-forward="true" selection-end-line="77" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/New/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/New/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5943">
-          <caret line="283" column="15" selection-start-line="283" selection-start-column="15" selection-end-line="283" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/New/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
@@ -899,9 +893,6 @@
     <entry file="file://$PROJECT_DIR$/img/Logo_news.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/New/img/Logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/present.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -914,9 +905,6 @@
     <entry file="file://$PROJECT_DIR$/New/img/Bitbon_logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/New/img/Logo_news.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/New/img/Header_Search.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -926,26 +914,45 @@
     <entry file="file://$PROJECT_DIR$/New/img/footer_Present.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/New/style.css">
+    <entry file="file://$PROJECT_DIR$/New/img/present.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Articles/img/News_head_back.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Articles/scripts/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Articles/img/Post_Admin_icon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Articles/img/Logo_news.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Articles/img/Logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crowdsale.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28266">
-          <caret line="1346" selection-start-line="1346" selection-end-line="1346" />
+        <state relative-caret-position="630">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8988">
-          <caret line="428" column="44" selection-start-line="428" selection-start-column="44" selection-end-line="428" selection-end-column="44" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/New/img/buy_present.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/New/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3843">
-          <caret line="183" column="22" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="22" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/New/img/Logo_news.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/New/img/Post_Comment.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/New/img/Logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Logo_footer.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/sphere.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -956,61 +963,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/New/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        <state relative-caret-position="357">
+          <caret line="17" column="121" selection-start-line="17" selection-start-column="121" selection-end-line="17" selection-end-column="121" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/crowdsale.js">
+    <entry file="file://$PROJECT_DIR$/Articles/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="61" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="61" />
+        <state relative-caret-position="126">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/New/img/buy_present.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/New/img/present.svg">
+    <entry file="file://$PROJECT_DIR$/Articles/img/Logo_footer.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Articles/img/Header_Search.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Articles/img/News_head_back.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Articles/scripts/jquery.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Articles/scripts/script.js">
+    <entry file="file://$PROJECT_DIR$/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="383">
+          <caret line="658" column="49" selection-start-line="658" selection-start-column="49" selection-end-line="658" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Articles/scripts/Header_script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Articles/img/Post_Admin_icon.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="2894" column="18" lean-forward="true" selection-start-line="2757" selection-start-column="4" selection-end-line="2894" selection-end-column="18" />
+        <state relative-caret-position="599">
+          <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
-          <caret line="778" column="26" lean-forward="true" selection-start-line="644" selection-start-column="8" selection-end-line="778" selection-end-column="26" />
+        <state relative-caret-position="-570">
+          <caret line="936" column="6" lean-forward="true" selection-start-line="936" selection-start-column="6" selection-end-line="936" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1024,31 +1012,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Articles/index.html">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1601">
-          <caret line="279" column="34" lean-forward="true" selection-start-line="279" selection-start-column="34" selection-end-line="279" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="183">
+          <caret line="1762" column="11" lean-forward="true" selection-start-line="1762" selection-start-column="11" selection-end-line="1762" selection-end-column="11" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Articles/img/Logo.svg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Articles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="187" column="1" lean-forward="true" selection-start-line="187" selection-start-column="1" selection-end-line="187" selection-end-column="1" />
+        <state relative-caret-position="194">
+          <caret line="632" column="1" lean-forward="true" selection-start-line="632" selection-start-column="1" selection-end-line="632" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Articles/img/Logo_news.svg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/Articles/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="57" column="22" lean-forward="true" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/New/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="224" column="49" selection-start-line="224" selection-start-column="49" selection-end-line="224" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/New/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="951" column="23" selection-start-line="951" selection-start-column="23" selection-end-line="951" selection-end-column="23" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

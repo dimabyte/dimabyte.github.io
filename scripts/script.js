@@ -285,25 +285,21 @@ $(function() {
 
 
         $('.news_btn').click(function () {
-            $('.about_btn').css('transition', '0s');
-            $(this).css('transition', '0s');
+            $('.about_btn').css('transition', '0.3s');
+            $(this).css('transition', '0.3s');
             $(this).addClass('active_big_btn');
             $('.about_btn').removeClass('active_big_btn');
             $('.Meaning').removeClass('active_little');
             $('.About').removeClass('active_little');
             $('.Tech').removeClass('active_little');
             $('.Global').addClass('active_little');
-            setTimeout(function () {
-                $('.about_btn').css('transition', '1s');
-                $('.news_btn').css('transition', '1s');
-            },1000);
             check_big();
 
 
         });
         $('.about_btn').click(function () {
-            $(this).css('transition', '0s');
-            $('.news_btn').css('transition', '0s');
+            $(this).css('transition', '0.3s');
+            $('.news_btn').css('transition', '0.3s');
             $(this).addClass('active_big_btn');
             $('.news_btn').removeClass('active_big_btn');
             $('.Meaning').removeClass('active_little');
