@@ -3,13 +3,23 @@ function drawing_dots() {
         return Math.pow(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2), 0.5)
     }
     function moving_count(x1, y1, x2, y2) {
-        return [(x2 - x1) / 20, (y2 - y1) / 20]
+        let i = 1;
+        let j = 30;
+        while (i !== 0){
+            if (Math.pow(Math.pow((x1 - x2) / j, 2) + Math.pow((y1 - y2) / j, 2), 0.5) <= 8){
+                i = 0;
+                return [(x2 - x1) / j, (y2 - y1) / j]
+            } else {
+                j += 1
+            }
+        }
+        console.log([(x2 - x1) / j, (y2 - y1) / j])
     }
 
 
     let b;
     let All_cords = [[320, 137], [397, 219], [429, 238], [404, 180], [565, 277], [585, 325], [526, 375], [617, 388], [698, 398], [868, 307], [964, 362], [1042, 376], [1086, 303], [968, 212]];
-    for(let i = 0; i < 6; i++){
+    for(let i = 0; i < 5; i++){
         b = All_cords.slice();
         All_cords = All_cords.concat(b);
     }
@@ -29,7 +39,7 @@ function drawing_dots() {
             All_cords[i + 1][0],
             All_cords[i + 1][1],
             All_cords[i][0], All_cords[i][1], moving_count(All_cords[i][0], All_cords[i][1], All_cords[i + 1][0], All_cords[i + 1][1])[0],
-            moving_count(All_cords[i][0], All_cords[i][1], All_cords[i + 1][0], All_cords[i + 1][1])[1],
+            moving_count(All_cords[i][0], All_cords[i][1], All_cords[i + 1][0], All_cords[i + 1][1])[1], 1
         ))
     }
     let Drawed_circles = [];
@@ -72,40 +82,66 @@ function drawing_dots() {
                     Drawed_circles[Circle_now].c2 += 0.2
                 }
             } else {
-                if (Drawed_circles.length > 5){
-                    if (distance(Drawed_lines[0].nowx, Drawed_lines[0].nowy, Drawed_lines[0].x1, Drawed_lines[0].y1) < 5
-                        && Drawed_circles[Circle_now].c1 <= 0) {
-                        Drawed_circles.splice(0, 1);
-                        Drawed_lines.splice(0, 1);
-                        Circle_now = 4;
-                    } else {
-                        if (Drawed_circles[0].c1 > 0){
-                            Drawed_circles[0].c1 -= 0.5;
-                            Drawed_circles[0].c2 -= 0.2;
-                        } else {
-                        }
-                        Drawed_lines[0].nowx -= Drawed_lines[0].movex;
-                        Drawed_lines[0].nowy -= Drawed_lines[0].movey;
-                    }
-                } else {
-                    if (distance(Drawed_lines[Circle_now - 1].nowx, Drawed_lines[Circle_now - 1].nowy, Drawed_lines[Circle_now - 1].x2, Drawed_lines[Circle_now - 1].y2) < 5
-                    && Drawed_circles[Circle_now].c1 >= 8){
-                        if (Circle_now < 5){
-                            Circle_now += 1;
-                        } else {
-                            Circle_now = 4
-
-                        }
+                if (Circle_now >= 4){
+                    if (distance(Drawed_lines[Circle_now - 1].nowx, Drawed_lines[Circle_now - 1].nowy, Drawed_lines[Circle_now - 1].x2, Drawed_lines[Circle_now - 1].y2) <= 2
+                        && Drawed_circles[Circle_now].c1 >= 8 && Drawed_lines.length <= 5){
+                        console.log('3eeeeeeeeeeeeeeeeeeee');
                         kek += 1;
                         Drawed_circles.push(All_circles[kek]);
-                        Drawed_lines.push(All_lines[kek- 1]);
+                        Drawed_lines.push(All_lines[kek - 1]);
                     } else {
                         if (Drawed_circles[Circle_now].c1 + 0.5 <= 8) {
                             Drawed_circles[Circle_now].c1 += 0.5;
                             Drawed_circles[Circle_now].c2 += 0.2;
                         }
-                        Drawed_lines[Circle_now - 1].nowx += Drawed_lines[Circle_now - 1].movex;
-                        Drawed_lines[Circle_now - 1].nowy += Drawed_lines[Circle_now - 1].movey;
+                        if (distance(Drawed_lines[Circle_now - 1].nowx, Drawed_lines[Circle_now - 1].nowy, Drawed_lines[Circle_now - 1].x2, Drawed_lines[Circle_now - 1].y2) <= 2){
+                            Drawed_lines[Circle_now - 1].yes = 0
+                        } else {
+                            if (Drawed_lines[Circle_now - 1].yes !== 0){
+                                Drawed_lines[Circle_now - 1].nowx += Drawed_lines[Circle_now - 1].movex;
+                                Drawed_lines[Circle_now - 1].nowy += Drawed_lines[Circle_now - 1].movey;
+                            }
+                        }
+                    }
+                    if (distance(Drawed_lines[0].nowx, Drawed_lines[0].nowy, Drawed_lines[0].x1, Drawed_lines[0].y1) <= 100
+                        && Drawed_circles[0].c1 <= 0 && Drawed_lines.length > 4) {
+                            Drawed_circles.splice(0, 1);
+                            Drawed_lines.splice(0, 1);
+                    } else {
+                        if (Drawed_circles[0].c1 > 0){
+                            Drawed_circles[0].c1 -= 0.5;
+                            Drawed_circles[0].c2 -= 0.2;
+                        }
+                        if (distance(Drawed_lines[0].nowx, Drawed_lines[0].nowy, Drawed_lines[0].x1, Drawed_lines[0].y1) <= 2){
+                            Drawed_lines[0].yes = 0
+                        } else {
+                            if (Drawed_lines[0].yes !== 0){
+                                Drawed_lines[0].nowx -= Drawed_lines[0].movex;
+                                Drawed_lines[0].nowy -= Drawed_lines[0].movey;
+                            }
+                        }
+                    }
+                } else {
+                    if (distance(Drawed_lines[Circle_now - 1].nowx, Drawed_lines[Circle_now - 1].nowy, Drawed_lines[Circle_now - 1].x2, Drawed_lines[Circle_now - 1].y2) <= 2
+                    && Drawed_circles[Circle_now].c1 >= 8){
+                        Circle_now += 1;
+                        kek += 1;
+                        Drawed_circles.push(All_circles[kek]);
+                        Drawed_lines.push(All_lines[kek - 1]);
+                    } else {
+                        if (Drawed_circles[Circle_now].c1 + 0.5 <= 8) {
+                            Drawed_circles[Circle_now].c1 += 0.5;
+                            Drawed_circles[Circle_now].c2 += 0.2;
+                        }
+                        if (distance(Drawed_lines[Circle_now - 1].nowx, Drawed_lines[Circle_now - 1].nowy, Drawed_lines[Circle_now - 1].x2, Drawed_lines[Circle_now - 1].y2) <= 2){
+                            Drawed_lines[Circle_now - 1].yes = 0
+                        } else {
+                            if (Drawed_lines[Circle_now - 1].yes !== 0){
+                                Drawed_lines[Circle_now - 1].nowx += Drawed_lines[Circle_now - 1].movex;
+                                Drawed_lines[Circle_now - 1].nowy += Drawed_lines[Circle_now - 1].movey;
+                            }
+                        }
+
                     }
                 }
             }
@@ -144,7 +180,7 @@ function drawing_dots() {
             context.closePath();
         };
     }
-    function Drawer_line(x1, y1, x2, y2, nowx, nowy,movex, movey) {
+    function Drawer_line(x1, y1, x2, y2, nowx, nowy,movex, movey, yes) {
         this.x1 = x1;
         this.y1 = y1;
         this.x2 = x2;
@@ -153,6 +189,7 @@ function drawing_dots() {
         this.nowy = nowy;
         this.movex = movex;
         this.movey = movey;
+        this.yes = yes;
         this.draw_line = function () {
             context.beginPath();
             context.moveTo(this.x1, this.y1);
