@@ -19,9 +19,9 @@ function draw_all(dots = 90, across = 100, line_width = 1) {
             a.push(new Drawer(
                 two_rand(sheet.width - 3, 1), //coordinate by x
                 two_rand(sheet.height - 3, 1), //coordinate by y
-                1, 1, '#898f95', //width, height, color
-                none_zero(2), //x vector
-                none_zero(2), //y vector
+                1, 1, '#696e73', //width, height, color
+                none_zero(1), //x vector
+                none_zero(1), //y vector
             ));
 
         }
