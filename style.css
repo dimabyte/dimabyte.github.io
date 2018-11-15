@@ -936,6 +936,18 @@ h1, h2, h3, h4, h5, h6 {
     left: -95px;
     align-items: center;
 }
+.infograph::after{
+    content: '100%';
+    position: absolute;
+    display: block;
+    left: 37%;
+    top: 70%;
+    transform: translateX(-3.5px);
+    color: #bbeccf;
+    font-size: 15px;
+    font-family: 'Roboto Bold', sans-serif;
+    opacity: 0.9;
+}
 .how_much{
     display: flex;
     flex-direction: column;
@@ -2693,6 +2705,9 @@ footer{
     .infograph{
         width: auto;
     }
+    .infograph::after{
+        left: 240px;
+    }
     .Collected >p:nth-child(1)::before {
         width: 54px;
         transform: translateX(-67px);
@@ -2900,6 +2915,7 @@ footer{
     .info{
         padding-bottom: 10px;
     }
+
     /* //news// */
 
 

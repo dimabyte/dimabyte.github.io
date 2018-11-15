@@ -666,14 +666,6 @@ $(function() {
 
         }
     );
-        // Смена цвета иконок при наведении в футере
-        $('.social_fot > a').hover(
-            function(){
-                $(this).find('svg').css('fill', '#cec1ff');
-            },
-            function(){
-                $(this).find('svg').css('fill', '#5964aa');
-            });
 
         // Анимации при скролле
     function crowdsale_icons(){
